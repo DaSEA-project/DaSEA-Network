@@ -1,3 +1,7 @@
 data/*
 out/*
+
+# neo4j-admin import log file
+import.report 
+
 .DS_Store

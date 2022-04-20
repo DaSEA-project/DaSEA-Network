@@ -4,7 +4,7 @@ from neo4j import GraphDatabase
 
 
 def importData(driver):
-    dirs = glob("/Applications/neo4j-community-4.4.4/import/*/", recursive=False)
+    dirs = glob("../data/*/", recursive=False)
     for d in dirs:
         print("Importing data from: " + d)
         files = [*iglob(f'{d}/*.csv')]
