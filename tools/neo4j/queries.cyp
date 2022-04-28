@@ -7,6 +7,7 @@ RETURN n
 MATCH (n:Package)
 WITH n.name AS name, collect(n) AS nodes, count(*) AS count
 WHERE count > 1
+<<<<<<< HEAD
 RETURN name, nodes, count;
 
 // Count all unique versions where pkg name and pkgman is a composite key
@@ -75,3 +76,6 @@ RETURN nodes;
 │-fortran","fpm"],["fpm","fpm"],["test-drive","fpm"],["nlopt-f","fpm"],│
 │["tblite","fpm"],["fftpack","fpm"],["stdlib","fpm"]]                  │
 └──────────────────────────────────────────────────────────────────────┘
+=======
+RETURN name, nodes, count;
+>>>>>>> 0c997effd8905890b0f8e6db4efa787ddb26339a
