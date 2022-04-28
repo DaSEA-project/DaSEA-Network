@@ -1,6 +1,6 @@
 ﻿name,nodelist,count,notes
-yarn,"[{""name"":yarn,""pkgman"":Cargo},{""name"":yarn,""pkgman"":Chromebrew},{""name"":yarn,""pkgman"":Homebrew}]",3,Cargo says reserved for future use - Chromebrew and Homebrew exists
-pnpm,"[{""name"":pnpm,""pkgman"":Cargo},{""name"":pnpm,""pkgman"":Homebrew}]",2,Cargo says reserved for future use - Homebrew exists
+yarn,"[{""name"":yarn,""pkgman"":Cargo},{""name"":yarn,""pkgman"":Chromebrew},{""name"":yarn,""pkgman"":Homebrew}]",3,Cargo says reserved for future use - Chromebrew and Homebrew refer to same
+pnpm,"[{""name"":pnpm,""pkgman"":Cargo},{""name"":pnpm,""pkgman"":Homebrew}]",2,Cargo says reserved for future use
 unixodbc,"[{""name"":unixodbc,""pkgman"":Cargo},{""name"":unixodbc,""pkgman"":VCPKG},{""name"":unixodbc,""pkgman"":Alire},{""name"":unixodbc,""pkgman"":Chromebrew},{""name"":unixodbc,""pkgman"":Homebrew}]",5,Same
 subnet,"[{""name"":subnet,""pkgman"":Cargo},{""name"":subnet,""pkgman"":Nimble}]",2, Cargo says reserved for future use
 tempdir,"[{""name"":tempdir,""pkgman"":Cargo},{""name"":tempdir,""pkgman"":Nimble}]",2,Same overall goal but different implementations
