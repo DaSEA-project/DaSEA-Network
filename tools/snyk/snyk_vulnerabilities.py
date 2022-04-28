@@ -9,18 +9,9 @@ HEADERS = {
 }
 SNYK_REGISTRY = "https://security.snyk.io/api/listing?search={pkg_name}&type=any"
 
-# reading CSV file
-data = read_csv("tools/neo4j/export.csv")
-
-# converting column data to list
-package_names = data['name'].tolist()
-
-# printing list data
-print('Packages:', package_names)
 
 
 # Find vulnerabilities
-
 def _check_pkg_vulnerabilities(pkg_name):
   # Get vulnerabilities
   url = SNYK_REGISTRY.format(pkg_name=pkg_name)
@@ -32,6 +23,14 @@ def _check_pkg_vulnerabilities(pkg_name):
 
 
 def main():
+  # reading CSV file
+  data = read_csv("tools/neo4j/export.csv")
+
+  # converting column data to list
+  package_names = data['name'].tolist()
+
+  # printing list data
+  print('Packages:', package_names)
   for package in package_names:
     print('Package:', package)
     print('Vulnerabilities:')
