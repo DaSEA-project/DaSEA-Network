@@ -1,0 +1,514 @@
+,pkg_idx,source_idx,target_idx,source_name,target_name,source_version,target_version,kind
+20,24,118,,Alien, ,0.5.1-1,,BUILD
+21,24,119,,Alien, ,0.5.0-1,,BUILD
+22,24,120,,Alien, ,0.4.1-1,,BUILD
+23,28,129,,altdoc, argparse,0.4.1-1,,BUILD
+24,28,129,,altdoc, filekit,0.4.1-1,,BUILD
+25,28,129,,altdoc, runkit,0.4.1-1,,BUILD
+26,28,129,,altdoc,  ,0.4.1-1,,BUILD
+27,28,130,,altdoc, argparse,0.3-1,,BUILD
+28,28,130,,altdoc, filekit,0.3-1,,BUILD
+29,28,130,,altdoc, runkit,0.3-1,,BUILD
+30,28,130,,altdoc,  ,0.3-1,,BUILD
+31,28,131,,altdoc, argparse,0.2-1,,BUILD
+32,28,131,,altdoc, filekit,0.2-1,,BUILD
+33,28,131,,altdoc, runkit,0.2-1,,BUILD
+34,28,131,,altdoc,  ,0.2-1,,BUILD
+35,28,132,,altdoc, argparse,0.1-1,,BUILD
+36,28,132,,altdoc, filekit,0.1-1,,BUILD
+37,28,132,,altdoc, runkit,0.1-1,,BUILD
+38,28,132,,altdoc,  ,0.1-1,,BUILD
+39,58,222,,argcheck, lua >= 5.1 ,scm-1,,BUILD
+40,72,306,,astar, lua >= 5.1 ,0.1.1-1,,BUILD
+41,72,307,,astar, lua >= 5.1 ,0.1.0-1,,BUILD
+42,99,382,,awestore, lua >= 5.3,dev-1,,BUILD
+43,99,382,,awestore, luaposix >= 35.0 ,dev-1,,BUILD
+45,99,383,,awestore, luaposix >= 35.0 ,0.3.0-1,,BUILD
+47,99,384,,awestore, luaposix >= 35.0 ,0.2.3-1,,BUILD
+49,99,385,,awestore, luaposix >= 35.0 ,0.2.2-1,,BUILD
+51,99,386,,awestore, luaposix >= 35.0 ,0.2.1-1,,BUILD
+53,99,387,,awestore, luaposix >= 35.0 ,0.2.0-1,,BUILD
+55,99,388,,awestore, luaposix >= 35.0 ,0.1.0-1,,BUILD
+86,291,1084,,Cosmo, lpeg >= 0.9 ,14.03.04-1,,BUILD
+87,291,1085,,Cosmo, lpeg >= 0.9 ,13.01.30-1,,BUILD
+88,291,1086,,Cosmo, lpeg >= 0.9 ,10.04.06-1,,BUILD
+89,291,1087,,Cosmo, lpeg >= 0.9 ,10.03.31-1,,BUILD
+90,291,1088,,Cosmo, lpeg >= 0.9 ,9.09.22-1,,BUILD
+91,291,1089,,Cosmo, lpeg >= 0.8.1 ,8.04.14-1,,BUILD
+92,291,1090,,Cosmo, lpeg >= 0.8.1 ,8.04.04-1,,BUILD
+93,291,1091,,Cosmo, ,8.02.18-1,,BUILD
+94,291,1092,,Cosmo, lpeg >= 0.8.1 ,current-1,,BUILD
+95,291,1093,,Cosmo, lpeg >= 0.9 ,16.06.04-1,,BUILD
+96,291,1094,,Cosmo, lpeg >= 0.9 ,14.03.04-1,,BUILD
+97,291,1095,,Cosmo, lpeg >= 0.9 ,13.01.30-1,,BUILD
+98,291,1096,,Cosmo, lpeg >= 0.9 ,10.04.06-1,,BUILD
+99,291,1097,,Cosmo, lpeg >= 0.9 ,10.03.31-1,,BUILD
+100,291,1098,,Cosmo, lpeg >= 0.9 ,9.09.22-1,,BUILD
+101,291,1099,,Cosmo, lpeg >= 0.8.1 ,8.04.14-1,,BUILD
+102,291,1100,,Cosmo, lpeg >= 0.8.1 ,8.04.04-1,,BUILD
+103,291,1101,,Cosmo, ,8.02.18-1,,BUILD
+104,291,1102,,Cosmo, lpeg >= 0.8.1 ,current-1,,BUILD
+105,300,1118,,Coxpcall, ,scm-1,,BUILD
+106,300,1119,,Coxpcall, ,cvs-2,,BUILD
+107,300,1120,,Coxpcall, ,cvs-1,,BUILD
+108,300,1121,,Coxpcall, ,1.15.0-1,,BUILD
+109,300,1122,,Coxpcall, ,1.14.0-2,,BUILD
+110,300,1124,,Coxpcall, ,1.13.0-1,,BUILD
+111,300,1125,,Coxpcall, ,1.12.0-1,,BUILD
+112,300,1126,,Coxpcall, ,1.12.0rc1-1,,BUILD
+113,300,1127,,Coxpcall, ,1.11.0-1,,BUILD
+114,300,1128,,Coxpcall, ,scm-2,,BUILD
+115,300,1129,,Coxpcall, ,scm-1,,BUILD
+116,300,1130,,Coxpcall, ,cvs-2,,BUILD
+117,300,1131,,Coxpcall, ,cvs-1,,BUILD
+118,300,1132,,Coxpcall, ,1.17.0-1,,BUILD
+119,300,1133,,Coxpcall, ,1.16.0-1,,BUILD
+120,300,1134,,Coxpcall, ,1.15.0-1,,BUILD
+121,300,1135,,Coxpcall, ,1.14.0-2,,BUILD
+122,300,1137,,Coxpcall, ,1.13.0-1,,BUILD
+123,300,1138,,Coxpcall, ,1.12.0-1,,BUILD
+124,300,1139,,Coxpcall, ,1.12.0rc1-1,,BUILD
+125,300,1140,,Coxpcall, ,1.11.0-1,,BUILD
+126,321,1223,,csv, lua >= 5.1 ,1-1,,BUILD
+127,321,1224,,csv, lua >= 5.1 ,scm-1,,BUILD
+128,321,1225,,csv, lua >= 5.1 ,1-1,,BUILD
+129,361,1358,,debugkit, inspect,1.2.3-1,,BUILD
+130,361,1358,,debugkit, ansicolors,1.2.3-1,,BUILD
+131,361,1358,,debugkit,  ,1.2.3-1,,BUILD
+132,361,1359,,debugkit, inspect,1.2.2-1,,BUILD
+133,361,1359,,debugkit, ansicolors,1.2.2-1,,BUILD
+134,361,1359,,debugkit,  ,1.2.2-1,,BUILD
+135,361,1360,,debugkit, inspect,1.2.1-1,,BUILD
+136,361,1360,,debugkit, ansicolors,1.2.1-1,,BUILD
+137,361,1360,,debugkit,  ,1.2.1-1,,BUILD
+177,544,2555,,flot,'lua >= 5.1',1.0-1,,BUILD
+178,555,2611,,flyzip,lua >= 5.2,1.0-1,,BUILD
+179,555,2611,,flyzip, < 5.4,1.0-1,,BUILD
+180,555,2611,,flyzip, lzlib >= 0.4.work3-1,1.0-1,,BUILD
+191,604,2763,,ggram, < 5.4,1.0-1,,BUILD
+192,604,2763,,ggram, copas,1.0-1,,BUILD
+193,604,2763,,ggram, luasec ,1.0-1,,BUILD
+237,651,2881,,guard,lua >= 5.1,0.0.1-1,,BUILD
+238,651,2881,,guard, <=5.3,0.0.1-1,,BUILD
+239,663,2963,,haricot, lua >= 5.1,1.2-1,,BUILD
+240,663,2963,,haricot, luasocket ,1.2-1,,BUILD
+245,781,3294,,iwi,lua >= 5.1,0.1-0,,BUILD
+246,781,3294,,iwi, < 5.3,0.1-0,,BUILD
+247,818,3432,,kikgit, lrunkit>=2.1,1.0.1-1,,BUILD
+248,818,3432,,kikgit, argparse,1.0.1-1,,BUILD
+249,818,3432,,kikgit,  ,1.0.1-1,,BUILD
+250,818,3433,,kikgit, lrunkit>=2.1,1.0-1,,BUILD
+251,818,3433,,kikgit, argparse,1.0-1,,BUILD
+252,818,3433,,kikgit,  ,1.0-1,,BUILD
+265,872,3682,,kong-oauth2-ext, ,0.0.1-0,,BUILD
+266,872,3683,,kong-oauth2-ext, ,0.0.1,,BUILD
+424,1392,5841,,lsnes-timer, < 5.5,dev-1,,BUILD
+426,1414,5942,,ltypekit-parser, debugkit,7.0.2-1,,BUILD
+427,1414,5942,,ltypekit-parser,  ,7.0.2-1,,BUILD
+428,1414,5943,,ltypekit-parser, debugkit,7.0.1-1,,BUILD
+429,1414,5943,,ltypekit-parser,  ,7.0.1-1,,BUILD
+430,1414,5944,,ltypekit-parser, debugkit,7.0-1,,BUILD
+431,1414,5944,,ltypekit-parser,  ,7.0-1,,BUILD
+447,1569,6583,,lua-dbus, ldbus >= scm-0 ,scm-0,,B
+475,1787,7256,,luaLSX, < 5.4,1.0-1,,BUILD
+519,2341,9475,,luma, lpeg >= 0.7,scm-1,,BUILD
+520,2341,9475,,luma, cosmo ,scm-1,,BUILD
+521,2341,9476,,luma, lpeg >= 0.10,0.2-1,,BUILD
+522,2341,9476,,luma, cosmo ,0.2-1,,BUILD
+523,2341,9477,,luma, lpeg >= 0.7 ,0.1-2,,BUILD
+524,2341,9478,,luma, lpeg >= 0.7,scm-1,,BUILD
+525,2341,9478,,luma, cosmo ,scm-1,,BUILD
+526,2341,9479,,luma, lpeg >= 0.10,0.2-1,,BUILD
+527,2341,9479,,luma, cosmo ,0.2-1,,BUILD
+528,2341,9480,,luma, lpeg >= 0.7 ,0.1-2,,BUILD
+529,2409,9735,,lutf8proc, lua >= 5.1,0.1.0-1,,BUILD
+530,2409,9735,,lutf8proc, <= 5.4 ,0.1.0-1,,BUIL
+545,2525,10254,,MiniFS,luafilesystem,1.1.3-1,,BUILD
+546,2525,10255,,MiniFS,luafilesystem,git-1,,BUILD
+547,2526,10256,,mirrorfs, lua >= 5.3,1.0-1,,BUILD
+548,2526,10256,,mirrorfs, luaposix,1.0-1,,BUILD
+549,2526,10256,,mirrorfs, flu ,1.0-1,,BUILD
+550,2586,10414,,mk, wsapi == cvs ,scm-1,,BUILD
+551,2586,10415,,mk, wsapi == cvs ,scm-1,,BUILD
+552,2598,10471,,Mockagne, lua >= 5.1,1.0-2,,BUILD
+553,2598,10471,,Mockagne, <= 5.4 ,1.0-2,,BUILD
+554,2644,10665,,mpack, lua >= 5.1 ,0.8.3-1,,BUILD
+555,2647,10680,,mpris, lua >= 5.1,scm-0,,BUILD
+556,2647,10680,,mpris, lua-dbus >= scm-0 ,scm-0,,BUILD
+558,2697,10862,,netfoxpack, lua >= 5.1 ,0.1.3-1,,BUILD
+559,2697,10863,,netfoxpack, lua >= 5.1 ,0.1.2-1,,BUILD
+560,2697,10864,,netfoxpack, lua >= 5.1 ,0.1.1-1,,BUILD
+566,2799,11163,,Orbit, 'luafilesystem >= 1.5.0',cvs-3,,BUILD
+567,2799,11163,,Orbit, 'lpeg >= 0.9' ,cvs-3,,BUILD
+568,2799,11164,,Orbit, 'luafilesystem >= 1.5.0',cvs-2,,BUILD
+569,2799,11164,,Orbit, 'lpeg >= 0.9',cvs-2,,BUILD
+570,2799,11164,,Orbit, 'wsapi >= 1.3.4',cvs-2,,BUILD
+571,2799,11164,,Orbit, 'mk' ,cvs-2,,BUILD
+572,2799,11165,,Orbit, 'wsapi cvs',cvs-1,,BUILD
+573,2799,11165,,Orbit, 'luafilesystem cvs',cvs-1,,BUILD
+574,2799,11165,,Orbit, 'cosmo current' ,cvs-1,,BUILD
+575,2799,11169,,Orbit, 'luafilesystem >= 1.5.0',2.2.0-2,,BUILD
+576,2799,11169,,Orbit, 'lpeg >= 0.9',2.2.0-2,,BUILD
+577,2799,11169,,Orbit, 'wsapi-xavante >= 1.3',2.2.0-2,,BUILD
+578,2799,11169,,Orbit, 'cosmo >= 10.04.06' ,2.2.0-2,,BUILD
+579,2799,11170,,Orbit, 'luafilesystem >= 1.5.0',2.2.0-1,,BUILD
+580,2799,11170,,Orbit, 'lpeg >= 0.9' ,2.2.0-1,,BUILD
+581,2799,11171,,Orbit, 'luafilesystem >= 1.5.0' ,2.1.0-1,,BUILD
+582,2799,11172,,Orbit, 'wsapi >= 1.1',2.0.2-1,,BUILD
+583,2799,11172,,Orbit, 'luafilesystem >= 1.4.2',2.0.2-1,,BUILD
+584,2799,11172,,Orbit, 'cosmo >= 8.04.14' ,2.0.2-1,,BUILD
+585,2799,11173,,Orbit, 'wsapi >= 1.0',2.0.1-1,,BUILD
+586,2799,11173,,Orbit, 'luafilesystem >= 1.4.1',2.0.1-1,,BUILD
+587,2799,11173,,Orbit, 'cosmo >= 8.04.14' ,2.0.1-1,,BUILD
+588,2799,11174,,Orbit, 'wsapi >= 1.0',2.0-1,,BUILD
+589,2799,11174,,Orbit, 'luafilesystem >= 1.4.1',2.0-1,,BUILD
+590,2799,11174,,Orbit, 'cosmo >= 8.04.14' ,2.0-1,,BUILD
+591,2799,11175,,Orbit, 'wsapi 1.0rc1',2.0rc1-1,,BUILD
+592,2799,11175,,Orbit, 'luafilesystem 1.4.1rc1',2.0rc1-1,,BUILD
+593,2799,11175,,Orbit, 'cosmo 8.04.14' ,2.0rc1-1,,BUILD
+594,2799,11177,,Orbit, 'luafilesystem >= 1.5.0',cvs-3,,BUILD
+595,2799,11177,,Orbit, 'lpeg >= 0.9' ,cvs-3,,BUILD
+596,2799,11178,,Orbit, 'luafilesystem >= 1.5.0',cvs-2,,BUILD
+597,2799,11178,,Orbit, 'lpeg >= 0.9',cvs-2,,BUILD
+598,2799,11178,,Orbit, 'wsapi >= 1.3.4',cvs-2,,BUILD
+599,2799,11178,,Orbit, 'mk' ,cvs-2,,BUILD
+600,2799,11179,,Orbit, 'wsapi cvs',cvs-1,,BUILD
+601,2799,11179,,Orbit, 'luafilesystem cvs',cvs-1,,BUILD
+602,2799,11179,,Orbit, 'cosmo current' ,cvs-1,,BUILD
+603,2799,11184,,Orbit, 'luafilesystem >= 1.5.0',2.2.0-2,,BUILD
+604,2799,11184,,Orbit, 'lpeg >= 0.9',2.2.0-2,,BUILD
+605,2799,11184,,Orbit, 'wsapi-xavante >= 1.3',2.2.0-2,,BUILD
+606,2799,11184,,Orbit, 'cosmo >= 10.04.06' ,2.2.0-2,,BUILD
+607,2799,11185,,Orbit, 'luafilesystem >= 1.5.0',2.2.0-1,,BUILD
+608,2799,11185,,Orbit, 'lpeg >= 0.9' ,2.2.0-1,,BUILD
+609,2799,11186,,Orbit, 'luafilesystem >= 1.5.0' ,2.1.0-1,,BUILD
+610,2799,11187,,Orbit, 'wsapi >= 1.1',2.0.2-1,,BUILD
+611,2799,11187,,Orbit, 'luafilesystem >= 1.4.2',2.0.2-1,,BUILD
+612,2799,11187,,Orbit, 'cosmo >= 8.04.14' ,2.0.2-1,,BUILD
+613,2799,11188,,Orbit, 'wsapi >= 1.0',2.0.1-1,,BUILD
+614,2799,11188,,Orbit, 'luafilesystem >= 1.4.1',2.0.1-1,,BUILD
+615,2799,11188,,Orbit, 'cosmo >= 8.04.14' ,2.0.1-1,,BUILD
+616,2799,11189,,Orbit, 'wsapi >= 1.0',2.0-1,,BUILD
+617,2799,11189,,Orbit, 'luafilesystem >= 1.4.1',2.0-1,,BUILD
+618,2799,11189,,Orbit, 'cosmo >= 8.04.14' ,2.0-1,,BUILD
+619,2799,11190,,Orbit, 'wsapi 1.0rc1',2.0rc1-1,,BUILD
+620,2799,11190,,Orbit, 'luafilesystem 1.4.1rc1',2.0rc1-1,,BUILD
+621,2799,11190,,Orbit, 'cosmo 8.04.14' ,2.0rc1-1,,BUILD
+622,2862,11446,,patengi, lua >= 5.1 ,scm-1,,BUILD
+623,2869,11465,,pbc, lua >= 5.1 ,0.1.0-1,,BUILD
+635,2913,11733,,plc, lua >= 5.3 ,scm-1,,BUILD
+636,2913,11734,,plc, lua >= 5.3 ,0.5-1,,BUILD
+637,2922,11751,,poly1305,lua == 5.2,1.0-5,,BUILD
+638,2923,11752,,pomelo, 'lua >= 5.1' ,0.1.0-1,,BUILD
+639,2931,11771,,power-table,lua,1.0.1-1,,BUILD
+640,2931,11772,,power-table,lua,1.0.0-1,,BUILD
+647,2998,12035,,readosm, lua >= 5.1 ,1-1,,BUILD
+648,2998,12036,,readosm, lua >= 5.1 ,1-1,,BUILD
+650,3016,12080,,remotelog,lua >= 5.1,1.1.1-1,,BUILD
+651,3016,12080,,remotelog, < 5.5,1.1.1-1,,BUILD
+652,3016,12080,,remotelog, luasocket > 2.0.2-6,1.1.1-1,,BUILD
+653,3016,12081,,remotelog,lua >= 5.1,1.1.0-1,,BUILD
+654,3016,12081,,remotelog, < 5.4,1.1.0-1,,BUILD
+655,3016,12081,,remotelog, luasocket > 2.0.2-6,1.1.0-1,,BUILD
+656,3016,12082,,remotelog,lua >= 5.1,1.0.1-1,,BUILD
+657,3016,12082,,remotelog, < 5.4,1.0.1-1,,BUILD
+658,3016,12082,,remotelog, luasocket > 2.0.2-6,1.0.1-1,,BUILD
+659,3016,12083,,remotelog,lua >= 5.1,1.0.0-1,,BUILD
+660,3016,12083,,remotelog, < 5.4,1.0.0-1,,BUILD
+661,3016,12083,,remotelog, luasocket > 2.0.2-6,1.0.0-1,,BUILD
+662,3042,12172,,resurfaceio-logger, luaunit ,1.2-3,,BUILD
+663,3070,12254,,rockwriter, filekit>=1.0,1.0.2-1,,BUILD
+664,3070,12254,,rockwriter, argparse,1.0.2-1,,BUILD
+665,3070,12254,,rockwriter, sirocco,1.0.2-1,,BUILD
+666,3070,12254,,rockwriter,  ,1.0.2-1,,BUILD
+667,3070,12255,,rockwriter, filekit>=1.0,1.0.1-1,,BUILD
+668,3070,12255,,rockwriter, argparse,1.0.1-1,,BUILD
+669,3070,12255,,rockwriter, sirocco,1.0.1-1,,BUILD
+670,3070,12255,,rockwriter,  ,1.0.1-1,,BUILD
+671,3070,12256,,rockwriter, filekit,1.0-1,,BUILD
+672,3070,12256,,rockwriter, argparse,1.0-1,,BUILD
+673,3070,12256,,rockwriter, sirocco,1.0-1,,BUILD
+674,3070,12256,,rockwriter,  ,1.0-1,,BUILD
+698,3232,12676,,StackTracePlus, lua >= 5.1,0.1.1-1,,BUILD
+699,3232,12676,,StackTracePlus, < 5.3 ,0.1.1-1,,BUILD
+700,3232,12677,,StackTracePlus, lua >= 5.1 ,0.1.0-1,,BUILD
+701,3232,12678,,StackTracePlus, lua >= 5.1,0.1.2-1,,BUILD
+702,3232,12678,,StackTracePlus, < 5.4 ,0.1.2-1,,BUILD
+703,3232,12679,,StackTracePlus, lua >= 5.1,0.1.1-1,,BUILD
+704,3232,12679,,StackTracePlus, < 5.3 ,0.1.1-1,,BUILD
+705,3232,12680,,StackTracePlus, lua >= 5.1 ,0.1.0-1,,BUILD
+709,3377,13160,,toml.lua, lua >= 5.1 ,0.1.0-0,,BUILD
+710,3377,13161,,toml.lua, lua >= 5.1 ,0.0.4-0,,BUILD
+711,3377,13162,,toml.lua, lua >= 5.3 ,0.0.3-0,,BUILD
+712,3377,13163,,toml.lua, lua >= 5.3 ,0.0.2-0,,BUILD
+713,3377,13164,,toml.lua, lua >= 5.3 ,0.0.1-1,,BUILD
+715,3446,13393,,unsplash-lua,lua >= 5.1,0.5-4,,BUILD
+716,3446,13393,,unsplash-lua, luasocket,0.5-4,,BUILD
+717,3446,13393,,unsplash-lua, luasec,0.5-4,,BUILD
+727,3459,13463,,util, 'torch >= 7.0',0-0,,BUILD
+731,3498,13602,,vusted,busted >= 2.0.0,1.0.0-1,,BUILD
+732,3534,13745,,WSAPI, luafilesystem >= 1.6.2 ,cvs-4,,BUILD
+733,3534,13746,,WSAPI, luafilesystem >= 1.5.0 ,cvs-3,,BUILD
+734,3534,13747,,WSAPI, ,cvs-2,,BUILD
+735,3534,13748,,WSAPI, luafilesystem cvs,cvs-1,,BUILD
+736,3534,13748,,WSAPI, rings cvs,cvs-1,,BUILD
+737,3534,13748,,WSAPI, coxpcall cvs ,cvs-1,,BUILD
+738,3534,13749,,WSAPI, luafilesystem >= 1.6.2 ,1.6.1-1,,BUILD
+739,3534,13750,,WSAPI, luafilesystem >= 1.6.2 ,1.6-1,,BUILD
+740,3534,13751,,WSAPI, luafilesystem >= 1.5.0 ,1.5-1,,BUILD
+741,3534,13752,,WSAPI, luafilesystem >= 1.5.0 ,1.4-1,,BUILD
+742,3534,13753,,WSAPI, luafilesystem >= 1.5.0 ,1.3.4-1,,BUILD
+743,3534,13754,,WSAPI, luafilesystem >= 1.5.0 ,1.3.3-1,,BUILD
+744,3534,13755,,WSAPI, luafilesystem >= 1.5.0 ,1.3.2-1,,BUILD
+745,3534,13756,,WSAPI, luafilesystem >= 1.5.0 ,1.3.1-1,,BUILD
+746,3534,13757,,WSAPI, luafilesystem >= 1.5.0 ,1.3-1,,BUILD
+747,3534,13758,,WSAPI, luafilesystem >= 1.4.2 ,1.2-2,,BUILD
+748,3534,13759,,WSAPI, luafilesystem >= 1.4.2 ,1.2-1,,BUILD
+749,3534,13760,,WSAPI, ,1.1-2,,BUILD
+750,3534,13761,,WSAPI, ,1.1-1,,BUILD
+751,3534,13762,,WSAPI, ,1.0-2,,BUILD
+752,3534,13764,,WSAPI, luafilesystem >= 1.6.2 ,cvs-4,,BUILD
+753,3534,13765,,WSAPI, luafilesystem >= 1.5.0 ,cvs-3,,BUILD
+754,3534,13766,,WSAPI, ,cvs-2,,BUILD
+755,3534,13767,,WSAPI, luafilesystem cvs,cvs-1,,BUILD
+756,3534,13767,,WSAPI, rings cvs,cvs-1,,BUILD
+757,3534,13767,,WSAPI, coxpcall cvs ,cvs-1,,BUILD
+758,3534,13768,,WSAPI, luafilesystem >= 1.6.2,1.7-1,,BUILD
+759,3534,13768,,WSAPI, rings >= 1.3.0,1.7-1,,BUILD
+760,3534,13768,,WSAPI, coxpcall >= 1.14 ,1.7-1,,BUILD
+761,3534,13769,,WSAPI, luafilesystem >= 1.6.2 ,1.6.1-1,,BUILD
+762,3534,13770,,WSAPI, luafilesystem >= 1.6.2 ,1.6-1,,BUILD
+763,3534,13771,,WSAPI, luafilesystem >= 1.5.0 ,1.5-1,,BUILD
+764,3534,13772,,WSAPI, luafilesystem >= 1.5.0 ,1.4-1,,BUILD
+765,3534,13773,,WSAPI, luafilesystem >= 1.5.0 ,1.3.4-1,,BUILD
+766,3534,13774,,WSAPI, luafilesystem >= 1.5.0 ,1.3.3-1,,BUILD
+767,3534,13775,,WSAPI, luafilesystem >= 1.5.0 ,1.3.2-1,,BUILD
+768,3534,13776,,WSAPI, luafilesystem >= 1.5.0 ,1.3.1-1,,BUILD
+769,3534,13777,,WSAPI, luafilesystem >= 1.5.0 ,1.3-1,,BUILD
+770,3534,13778,,WSAPI, luafilesystem >= 1.4.2 ,1.2-2,,BUILD
+771,3534,13779,,WSAPI, luafilesystem >= 1.4.2 ,1.2-1,,BUILD
+772,3534,13780,,WSAPI, ,1.1-2,,BUILD
+773,3534,13781,,WSAPI, ,1.1-1,,BUILD
+774,3534,13782,,WSAPI, ,1.0-2,,BUILD
+775,3538,13786,,WSAPI-FCGI, wsapi cvs,cvs-2,,BUILD
+776,3538,13786,,WSAPI-FCGI, rings >= 1.2.3,cvs-2,,BUILD
+777,3538,13786,,WSAPI-FCGI, coxpcall >= 1.13 ,cvs-2,,BUILD
+778,3538,13787,,WSAPI-FCGI, wsapi cvs ,cvs-1,,BUILD
+779,3538,13788,,WSAPI-FCGI, wsapi >= 1.6.1,1.6.1-1,,BUILD
+780,3538,13788,,WSAPI-FCGI, rings >= 1.3.0,1.6.1-1,,BUILD
+781,3538,13788,,WSAPI-FCGI, coxpcall >= 1.14 ,1.6.1-1,,BUILD
+782,3538,13789,,WSAPI-FCGI, wsapi >= 1.6,1.6-1,,BUILD
+783,3538,13789,,WSAPI-FCGI, rings >= 1.3.0,1.6-1,,BUILD
+784,3538,13789,,WSAPI-FCGI, coxpcall >= 1.14 ,1.6-1,,BUILD
+785,3538,13790,,WSAPI-FCGI, wsapi >= 1.5,1.5-1,,BUILD
+786,3538,13790,,WSAPI-FCGI, rings >= 1.2.3,1.5-1,,BUILD
+787,3538,13790,,WSAPI-FCGI, coxpcall >= 1.13 ,1.5-1,,BUILD
+788,3538,13791,,WSAPI-FCGI, wsapi >= 1.4,1.4-1,,BUILD
+789,3538,13791,,WSAPI-FCGI, rings >= 1.2.3,1.4-1,,BUILD
+790,3538,13791,,WSAPI-FCGI, coxpcall >= 1.13 ,1.4-1,,BUILD
+791,3538,13792,,WSAPI-FCGI, wsapi >= 1.3.4,1.3.4-1,,BUILD
+792,3538,13792,,WSAPI-FCGI, rings >= 1.2.3,1.3.4-1,,BUILD
+793,3538,13792,,WSAPI-FCGI, coxpcall >= 1.13 ,1.3.4-1,,BUILD
+794,3538,13793,,WSAPI-FCGI, wsapi >= 1.3.3,1.3.3-1,,BUILD
+795,3538,13793,,WSAPI-FCGI, rings >= 1.2.3,1.3.3-1,,BUILD
+796,3538,13793,,WSAPI-FCGI, coxpcall >= 1.13 ,1.3.3-1,,BUILD
+797,3538,13794,,WSAPI-FCGI, wsapi >= 1.3.2,1.3.2-1,,BUILD
+798,3538,13794,,WSAPI-FCGI, rings >= 1.2.3,1.3.2-1,,BUILD
+799,3538,13794,,WSAPI-FCGI, coxpcall >= 1.13 ,1.3.2-1,,BUILD
+800,3538,13795,,WSAPI-FCGI, wsapi >= 1.3,1.3.1-1,,BUILD
+801,3538,13795,,WSAPI-FCGI, rings >= 1.2.3,1.3.1-1,,BUILD
+802,3538,13795,,WSAPI-FCGI, coxpcall >= 1.13 ,1.3.1-1,,BUILD
+803,3538,13796,,WSAPI-FCGI, wsapi >= 1.3,1.3-1,,BUILD
+804,3538,13796,,WSAPI-FCGI, rings >= 1.2.3,1.3-1,,BUILD
+805,3538,13796,,WSAPI-FCGI, coxpcall >= 1.13 ,1.3-1,,BUILD
+806,3538,13797,,WSAPI-FCGI, wsapi >= 1.2,1.2-1,,BUILD
+807,3538,13797,,WSAPI-FCGI, rings >= 1.2.3,1.2-1,,BUILD
+808,3538,13797,,WSAPI-FCGI, coxpcall >= 1.13 ,1.2-1,,BUILD
+809,3538,13798,,WSAPI-FCGI, wsapi >= 1.1,1.1-3,,BUILD
+810,3538,13798,,WSAPI-FCGI, rings >= 1.2.2,1.1-3,,BUILD
+811,3538,13798,,WSAPI-FCGI, coxpcall >= 1.13 ,1.1-3,,BUILD
+812,3538,13799,,WSAPI-FCGI, wsapi >= 1.1 ,1.1-2,,BUILD
+813,3538,13800,,WSAPI-FCGI, wsapi >= 1.1 ,1.1-1,,BUILD
+814,3538,13803,,WSAPI-FCGI, wsapi 1.0rc1 ,1.0rc1-1,,BUILD
+815,3538,13804,,WSAPI-FCGI, wsapi cvs,cvs-2,,BUILD
+816,3538,13804,,WSAPI-FCGI, rings >= 1.2.3,cvs-2,,BUILD
+817,3538,13804,,WSAPI-FCGI, coxpcall >= 1.13 ,cvs-2,,BUILD
+818,3538,13805,,WSAPI-FCGI, wsapi cvs ,cvs-1,,BUILD
+819,3538,13806,,WSAPI-FCGI, wsapi >= 1.6.1 ,1.7-1,,BUILD
+820,3538,13807,,WSAPI-FCGI, wsapi >= 1.6.1,1.6.1-1,,BUILD
+821,3538,13807,,WSAPI-FCGI, rings >= 1.3.0,1.6.1-1,,BUILD
+822,3538,13807,,WSAPI-FCGI, coxpcall >= 1.14 ,1.6.1-1,,BUILD
+823,3538,13808,,WSAPI-FCGI, wsapi >= 1.6,1.6-1,,BUILD
+824,3538,13808,,WSAPI-FCGI, rings >= 1.3.0,1.6-1,,BUILD
+825,3538,13808,,WSAPI-FCGI, coxpcall >= 1.14 ,1.6-1,,BUILD
+826,3538,13809,,WSAPI-FCGI, wsapi >= 1.5,1.5-1,,BUILD
+827,3538,13809,,WSAPI-FCGI, rings >= 1.2.3,1.5-1,,BUILD
+828,3538,13809,,WSAPI-FCGI, coxpcall >= 1.13 ,1.5-1,,BUILD
+829,3538,13810,,WSAPI-FCGI, wsapi >= 1.4,1.4-1,,BUILD
+830,3538,13810,,WSAPI-FCGI, rings >= 1.2.3,1.4-1,,BUILD
+831,3538,13810,,WSAPI-FCGI, coxpcall >= 1.13 ,1.4-1,,BUILD
+832,3538,13811,,WSAPI-FCGI, wsapi >= 1.3.4,1.3.4-1,,BUILD
+833,3538,13811,,WSAPI-FCGI, rings >= 1.2.3,1.3.4-1,,BUILD
+834,3538,13811,,WSAPI-FCGI, coxpcall >= 1.13 ,1.3.4-1,,BUILD
+835,3538,13812,,WSAPI-FCGI, wsapi >= 1.3.3,1.3.3-1,,BUILD
+836,3538,13812,,WSAPI-FCGI, rings >= 1.2.3,1.3.3-1,,BUILD
+837,3538,13812,,WSAPI-FCGI, coxpcall >= 1.13 ,1.3.3-1,,BUILD
+838,3538,13813,,WSAPI-FCGI, wsapi >= 1.3.2,1.3.2-1,,BUILD
+839,3538,13813,,WSAPI-FCGI, rings >= 1.2.3,1.3.2-1,,BUILD
+840,3538,13813,,WSAPI-FCGI, coxpcall >= 1.13 ,1.3.2-1,,BUILD
+841,3538,13814,,WSAPI-FCGI, wsapi >= 1.3,1.3.1-1,,BUILD
+842,3538,13814,,WSAPI-FCGI, rings >= 1.2.3,1.3.1-1,,BUILD
+843,3538,13814,,WSAPI-FCGI, coxpcall >= 1.13 ,1.3.1-1,,BUILD
+844,3538,13815,,WSAPI-FCGI, wsapi >= 1.3,1.3-1,,BUILD
+845,3538,13815,,WSAPI-FCGI, rings >= 1.2.3,1.3-1,,BUILD
+846,3538,13815,,WSAPI-FCGI, coxpcall >= 1.13 ,1.3-1,,BUILD
+847,3538,13816,,WSAPI-FCGI, wsapi >= 1.2,1.2-1,,BUILD
+848,3538,13816,,WSAPI-FCGI, rings >= 1.2.3,1.2-1,,BUILD
+849,3538,13816,,WSAPI-FCGI, coxpcall >= 1.13 ,1.2-1,,BUILD
+850,3538,13817,,WSAPI-FCGI, wsapi >= 1.1,1.1-3,,BUILD
+851,3538,13817,,WSAPI-FCGI, rings >= 1.2.2,1.1-3,,BUILD
+852,3538,13817,,WSAPI-FCGI, coxpcall >= 1.13 ,1.1-3,,BUILD
+853,3538,13818,,WSAPI-FCGI, wsapi >= 1.1 ,1.1-2,,BUILD
+854,3538,13819,,WSAPI-FCGI, wsapi >= 1.1 ,1.1-1,,BUILD
+855,3538,13822,,WSAPI-FCGI, wsapi 1.0rc1 ,1.0rc1-1,,BUILD
+856,3539,13823,,WSAPI-OpenResty, lua >= 5.1,0.0.1-1,,BUILD
+857,3539,13823,,WSAPI-OpenResty, wsapi >= 1.6.1 ,0.0.1-1,,BUILD
+858,3541,13824,,WSAPI-Xavante, wsapi cvs,cvs-1,,BUILD
+859,3541,13824,,WSAPI-Xavante, rings >= 1.2.3,cvs-1,,BUILD
+860,3541,13824,,WSAPI-Xavante, coxpcall >= 1.13,cvs-1,,BUILD
+861,3541,13824,,WSAPI-Xavante, xavante >= 2.2.0 ,cvs-1,,BUILD
+862,3541,13825,,WSAPI-Xavante, wsapi >= 1.6.1,1.6.1-1,,BUILD
+863,3541,13825,,WSAPI-Xavante, rings >= 1.3.0,1.6.1-1,,BUILD
+864,3541,13825,,WSAPI-Xavante, coxpcall >= 1.14,1.6.1-1,,BUILD
+865,3541,13825,,WSAPI-Xavante, xavante >= 2.3.0 ,1.6.1-1,,BUILD
+866,3541,13826,,WSAPI-Xavante, wsapi >= 1.6,1.6-1,,BUILD
+867,3541,13826,,WSAPI-Xavante, rings >= 1.3.0,1.6-1,,BUILD
+868,3541,13826,,WSAPI-Xavante, coxpcall >= 1.14,1.6-1,,BUILD
+869,3541,13826,,WSAPI-Xavante, xavante >= 2.3.0 ,1.6-1,,BUILD
+870,3541,13827,,WSAPI-Xavante, wsapi >= 1.5,1.5-1,,BUILD
+871,3541,13827,,WSAPI-Xavante, rings >= 1.2.3,1.5-1,,BUILD
+872,3541,13827,,WSAPI-Xavante, coxpcall >= 1.13,1.5-1,,BUILD
+873,3541,13827,,WSAPI-Xavante, xavante >= 2.2.0 ,1.5-1,,BUILD
+874,3541,13828,,WSAPI-Xavante, wsapi >= 1.4,1.4-1,,BUILD
+875,3541,13828,,WSAPI-Xavante, rings >= 1.2.3,1.4-1,,BUILD
+876,3541,13828,,WSAPI-Xavante, coxpcall >= 1.13,1.4-1,,BUILD
+877,3541,13828,,WSAPI-Xavante, xavante >= 2.2.0 ,1.4-1,,BUILD
+878,3541,13829,,WSAPI-Xavante, wsapi >= 1.3.4,1.3.4-1,,BUILD
+879,3541,13829,,WSAPI-Xavante, rings >= 1.2.3,1.3.4-1,,BUILD
+880,3541,13829,,WSAPI-Xavante, coxpcall >= 1.13,1.3.4-1,,BUILD
+881,3541,13829,,WSAPI-Xavante, xavante >= 2.2.0 ,1.3.4-1,,BUILD
+882,3541,13830,,WSAPI-Xavante, wsapi >= 1.3.3,1.3.3-1,,BUILD
+883,3541,13830,,WSAPI-Xavante, rings >= 1.2.3,1.3.3-1,,BUILD
+884,3541,13830,,WSAPI-Xavante, coxpcall >= 1.13,1.3.3-1,,BUILD
+885,3541,13830,,WSAPI-Xavante, xavante >= 2.2.0 ,1.3.3-1,,BUILD
+886,3541,13831,,WSAPI-Xavante, wsapi >= 1.3.2,1.3.2-1,,BUILD
+887,3541,13831,,WSAPI-Xavante, rings >= 1.2.3,1.3.2-1,,BUILD
+888,3541,13831,,WSAPI-Xavante, coxpcall >= 1.13,1.3.2-1,,BUILD
+889,3541,13831,,WSAPI-Xavante, xavante >= 2.1.0 ,1.3.2-1,,BUILD
+890,3541,13832,,WSAPI-Xavante, wsapi >= 1.3,1.3.1-1,,BUILD
+891,3541,13832,,WSAPI-Xavante, rings >= 1.2.3,1.3.1-1,,BUILD
+892,3541,13832,,WSAPI-Xavante, coxpcall >= 1.13,1.3.1-1,,BUILD
+893,3541,13832,,WSAPI-Xavante, xavante >= 2.1.0 ,1.3.1-1,,BUILD
+894,3541,13833,,WSAPI-Xavante, wsapi >= 1.3,1.3-1,,BUILD
+895,3541,13833,,WSAPI-Xavante, rings >= 1.2.3,1.3-1,,BUILD
+896,3541,13833,,WSAPI-Xavante, coxpcall >= 1.13,1.3-1,,BUILD
+897,3541,13833,,WSAPI-Xavante, xavante >= 2.1.0 ,1.3-1,,BUILD
+898,3541,13834,,WSAPI-Xavante, wsapi >= 1.2,1.2-1,,BUILD
+899,3541,13834,,WSAPI-Xavante, rings >= 1.2.3,1.2-1,,BUILD
+900,3541,13834,,WSAPI-Xavante, coxpcall >= 1.13,1.2-1,,BUILD
+901,3541,13834,,WSAPI-Xavante, xavante >= 2.1.0 ,1.2-1,,BUILD
+902,3541,13835,,WSAPI-Xavante, wsapi cvs,cvs-1,,BUILD
+903,3541,13835,,WSAPI-Xavante, rings >= 1.2.3,cvs-1,,BUILD
+904,3541,13835,,WSAPI-Xavante, coxpcall >= 1.13,cvs-1,,BUILD
+905,3541,13835,,WSAPI-Xavante, xavante >= 2.2.0 ,cvs-1,,BUILD
+906,3541,13836,,WSAPI-Xavante, wsapi >= 1.6.1,1.7-1,,BUILD
+907,3541,13836,,WSAPI-Xavante, xavante >= 2.3.0 ,1.7-1,,BUILD
+908,3541,13837,,WSAPI-Xavante, wsapi >= 1.6.1,1.6.1-1,,BUILD
+909,3541,13837,,WSAPI-Xavante, rings >= 1.3.0,1.6.1-1,,BUILD
+910,3541,13837,,WSAPI-Xavante, coxpcall >= 1.14,1.6.1-1,,BUILD
+911,3541,13837,,WSAPI-Xavante, xavante >= 2.3.0 ,1.6.1-1,,BUILD
+912,3541,13838,,WSAPI-Xavante, wsapi >= 1.6,1.6-1,,BUILD
+913,3541,13838,,WSAPI-Xavante, rings >= 1.3.0,1.6-1,,BUILD
+914,3541,13838,,WSAPI-Xavante, coxpcall >= 1.14,1.6-1,,BUILD
+915,3541,13838,,WSAPI-Xavante, xavante >= 2.3.0 ,1.6-1,,BUILD
+916,3541,13839,,WSAPI-Xavante, wsapi >= 1.5,1.5-1,,BUILD
+917,3541,13839,,WSAPI-Xavante, rings >= 1.2.3,1.5-1,,BUILD
+918,3541,13839,,WSAPI-Xavante, coxpcall >= 1.13,1.5-1,,BUILD
+919,3541,13839,,WSAPI-Xavante, xavante >= 2.2.0 ,1.5-1,,BUILD
+920,3541,13840,,WSAPI-Xavante, wsapi >= 1.4,1.4-1,,BUILD
+921,3541,13840,,WSAPI-Xavante, rings >= 1.2.3,1.4-1,,BUILD
+922,3541,13840,,WSAPI-Xavante, coxpcall >= 1.13,1.4-1,,BUILD
+923,3541,13840,,WSAPI-Xavante, xavante >= 2.2.0 ,1.4-1,,BUILD
+924,3541,13841,,WSAPI-Xavante, wsapi >= 1.3.4,1.3.4-1,,BUILD
+925,3541,13841,,WSAPI-Xavante, rings >= 1.2.3,1.3.4-1,,BUILD
+926,3541,13841,,WSAPI-Xavante, coxpcall >= 1.13,1.3.4-1,,BUILD
+927,3541,13841,,WSAPI-Xavante, xavante >= 2.2.0 ,1.3.4-1,,BUILD
+928,3541,13842,,WSAPI-Xavante, wsapi >= 1.3.3,1.3.3-1,,BUILD
+929,3541,13842,,WSAPI-Xavante, rings >= 1.2.3,1.3.3-1,,BUILD
+930,3541,13842,,WSAPI-Xavante, coxpcall >= 1.13,1.3.3-1,,BUILD
+931,3541,13842,,WSAPI-Xavante, xavante >= 2.2.0 ,1.3.3-1,,BUILD
+932,3541,13843,,WSAPI-Xavante, wsapi >= 1.3.2,1.3.2-1,,BUILD
+933,3541,13843,,WSAPI-Xavante, rings >= 1.2.3,1.3.2-1,,BUILD
+934,3541,13843,,WSAPI-Xavante, coxpcall >= 1.13,1.3.2-1,,BUILD
+935,3541,13843,,WSAPI-Xavante, xavante >= 2.1.0 ,1.3.2-1,,BUILD
+936,3541,13844,,WSAPI-Xavante, wsapi >= 1.3,1.3.1-1,,BUILD
+937,3541,13844,,WSAPI-Xavante, rings >= 1.2.3,1.3.1-1,,BUILD
+938,3541,13844,,WSAPI-Xavante, coxpcall >= 1.13,1.3.1-1,,BUILD
+939,3541,13844,,WSAPI-Xavante, xavante >= 2.1.0 ,1.3.1-1,,BUILD
+940,3541,13845,,WSAPI-Xavante, wsapi >= 1.3,1.3-1,,BUILD
+941,3541,13845,,WSAPI-Xavante, rings >= 1.2.3,1.3-1,,BUILD
+942,3541,13845,,WSAPI-Xavante, coxpcall >= 1.13,1.3-1,,BUILD
+943,3541,13845,,WSAPI-Xavante, xavante >= 2.1.0 ,1.3-1,,BUILD
+944,3541,13846,,WSAPI-Xavante, wsapi >= 1.2,1.2-1,,BUILD
+945,3541,13846,,WSAPI-Xavante, rings >= 1.2.3,1.2-1,,BUILD
+946,3541,13846,,WSAPI-Xavante, coxpcall >= 1.13,1.2-1,,BUILD
+947,3541,13846,,WSAPI-Xavante, xavante >= 2.1.0 ,1.2-1,,BUILD
+962,3571,13919,,Xavante, 'luasocket',cvs-2,,BUILD
+963,3571,13919,,Xavante, 'copas cvs',cvs-2,,BUILD
+964,3571,13919,,Xavante, 'luafilesystem cvs' ,cvs-2,,BUILD
+965,3571,13920,,Xavante, 'luasocket',cvs-1,,BUILD
+966,3571,13920,,Xavante, 'copas cvs',cvs-1,,BUILD
+967,3571,13920,,Xavante, 'luafilesystem cvs' ,cvs-1,,BUILD
+968,3571,13921,,Xavante, 'luasocket >= 2.1',2.3.0-1,,BUILD
+969,3571,13921,,Xavante, 'copas >= 1.2.0',2.3.0-1,,BUILD
+970,3571,13921,,Xavante, 'luafilesystem >= 1.6.0' ,2.3.0-1,,BUILD
+971,3571,13922,,Xavante, 'luasocket >= 2.0',2.2.1-1,,BUILD
+972,3571,13922,,Xavante, 'copas >= 1.1.5',2.2.1-1,,BUILD
+973,3571,13922,,Xavante, 'luafilesystem >= 1.5.0' ,2.2.1-1,,BUILD
+974,3571,13923,,Xavante, 'luasocket >= 2.0',2.2.0-1,,BUILD
+975,3571,13923,,Xavante, 'copas >= 1.1.5',2.2.0-1,,BUILD
+976,3571,13923,,Xavante, 'luafilesystem >= 1.5.0' ,2.2.0-1,,BUILD
+977,3571,13924,,Xavante, 'luasocket >= 2.0.2',2.1.0-1,,BUILD
+978,3571,13924,,Xavante, 'copas >= 1.1.5',2.1.0-1,,BUILD
+979,3571,13924,,Xavante, 'luafilesystem >= 1.4.2' ,2.1.0-1,,BUILD
+980,3571,13927,,Xavante, 'luasocket',2.0rc1-1,,BUILD
+981,3571,13927,,Xavante, 'copas 1.1.1',2.0rc1-1,,BUILD
+982,3571,13927,,Xavante, 'luafilesystem 1.4.1rc1' ,2.0rc1-1,,BUILD
+983,3571,13928,,Xavante, 'luasocket >= 2.1',scm-1,,BUILD
+984,3571,13928,,Xavante, 'copas >= 1.2.0',scm-1,,BUILD
+985,3571,13928,,Xavante, 'luafilesystem >= 1.6.0' ,scm-1,,BUILD
+986,3571,13929,,Xavante, 'luasocket',cvs-2,,BUILD
+987,3571,13929,,Xavante, 'copas cvs',cvs-2,,BUILD
+988,3571,13929,,Xavante, 'luafilesystem cvs' ,cvs-2,,BUILD
+989,3571,13930,,Xavante, 'luasocket',cvs-1,,BUILD
+990,3571,13930,,Xavante, 'copas cvs',cvs-1,,BUILD
+991,3571,13930,,Xavante, 'luafilesystem cvs' ,cvs-1,,BUILD
+992,3571,13931,,Xavante, 'luasocket >= 2.1',2.4.0-1,,BUILD
+993,3571,13931,,Xavante, 'copas >= 1.2.0',2.4.0-1,,BUILD
+994,3571,13931,,Xavante, 'luafilesystem >= 1.6.0' ,2.4.0-1,,BUILD
+995,3571,13932,,Xavante, 'luasocket >= 2.1',2.3.0-1,,BUILD
+996,3571,13932,,Xavante, 'copas >= 1.2.0',2.3.0-1,,BUILD
+997,3571,13932,,Xavante, 'luafilesystem >= 1.6.0' ,2.3.0-1,,BUILD
+998,3571,13933,,Xavante, 'luasocket >= 2.0',2.2.1-1,,BUILD
+999,3571,13933,,Xavante, 'copas >= 1.1.5',2.2.1-1,,BUILD
+1000,3571,13933,,Xavante, 'luafilesystem >= 1.5.0' ,2.2.1-1,,BUILD
+1001,3571,13934,,Xavante, 'luasocket >= 2.0',2.2.0-1,,BUILD
+1002,3571,13934,,Xavante, 'copas >= 1.1.5',2.2.0-1,,BUILD
+1003,3571,13934,,Xavante, 'luafilesystem >= 1.5.0' ,2.2.0-1,,BUILD
+1004,3571,13935,,Xavante, 'luasocket >= 2.0.2',2.1.0-1,,BUILD
+1005,3571,13935,,Xavante, 'copas >= 1.1.5',2.1.0-1,,BUILD
+1006,3571,13935,,Xavante, 'luafilesystem >= 1.4.2' ,2.1.0-1,,BUILD
+1007,3571,13938,,Xavante, 'luasocket',2.0rc1-1,,BUILD
+1008,3571,13938,,Xavante, 'copas 1.1.1',2.0rc1-1,,BUILD
+1009,3571,13938,,Xavante, 'luafilesystem 1.4.1rc1' ,2.0rc1-1,,BUILD
+
