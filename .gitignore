@@ -5,3 +5,5 @@ out/*
 import.report 
 
 .DS_Store
+
+.vscode/
