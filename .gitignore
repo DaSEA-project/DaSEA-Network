@@ -1,5 +1,4 @@
-data/*
-out/*
+data/**/*.csv
 
 # neo4j-admin import log file
 import.report 
