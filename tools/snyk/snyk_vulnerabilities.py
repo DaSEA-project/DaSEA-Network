@@ -24,7 +24,7 @@ def _check_pkg_vulnerabilities(pkg_name):
 
 def main():
   # reading CSV file
-  data = read_csv("tools/neo4j/export.csv")
+  data = read_csv("data/research/pkg_in_multiple_ecosytems.csv")
 
   # converting column data to list
   package_names = data['name'].tolist()
