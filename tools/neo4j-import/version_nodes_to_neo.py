@@ -7,33 +7,37 @@ def main(fnames):
     csv_writer = csv.writer(sys.stdout)
 
     header_line = (
-        ":ID,name,pkgman,:LABEL"
+        ":ID,pkg_name,pkgman,version,:LABEL,homepage,repo"
     )
     print(header_line)
     for fname in fnames:
+        pkgman = fname.split("/")[-1].split("_")[0]
         with open(fname) as fp:
             csv_reader = csv.reader(fp, delimiter=",")
             next(csv_reader)  # Skip the header line
             for row in csv_reader:
                 (
                     idx,
+                    _,
                     name,
-                    pkgman
-                ) = row[0:3]
+                    version,
+                    _,
+                    _,
+                    homepage,
+                    repo
+                ) = row[0:8]
                 csv_writer.writerow(
                     (
-                        generateFixedHash('package'+idx+pkgman.lower()),
+                        f'version'+idx+pkgman.lower(),
                         name,
                         pkgman,
-                        "Package",
+                        version,
+                        "Version",
+                        repo,
+                        homepage
                     )
                 )
 
-def generateFixedHash(value):
-    encoded = value.encode("utf-8")
-    hash_object = hashlib.sha256(encoded)
-    hex_dig = hash_object.hexdigest()
-    return hex_dig
 
 
 if __name__ == "__main__":
