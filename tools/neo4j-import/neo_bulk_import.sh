@@ -3,7 +3,7 @@
 echo "The following will take some time! Go do something else..."
 echo ""
 
-python3 tools/packages_to_neo.py \
+python3 tools/neo4j-import/packages_to_neo.py \
         data/cargo/cargo_packages_03-18-2022.csv\
         data/fpm/fpm_packages_03-18-2022.csv \
         data/alire/alire_packages_03-18-2022.csv \
@@ -17,7 +17,7 @@ python3 tools/packages_to_neo.py \
         data/ports/openbsd69/openbsd69_packages_03-18-2022.csv \
         > data/out/neo_pkg.csv
 
-python3 tools/version_nodes_to_neo.py \
+python3 tools/neo4j-import/version_nodes_to_neo.py \
         data/cargo/cargo_versions_03-18-2022.csv\
         data/fpm/fpm_versions_03-18-2022.csv \
         data/alire/alire_versions_03-18-2022.csv \
@@ -31,7 +31,7 @@ python3 tools/version_nodes_to_neo.py \
         data/ports/openbsd69/openbsd69_versions_03-18-2022.csv \
         > data/out/neo_ver.csv
 
-python3 tools/version_rels_to_neo.py \
+python3 tools/neo4j-import/version_rels_to_neo.py \
         data/cargo/cargo_versions_03-18-2022.csv\
         data/fpm/fpm_versions_03-18-2022.csv \
         data/alire/alire_versions_03-18-2022.csv \
@@ -45,7 +45,7 @@ python3 tools/version_rels_to_neo.py \
         data/ports/openbsd69/openbsd69_versions_03-18-2022.csv \
         > data/out/neo_ver_rels.csv
 
-python3 tools/deps_to_neo.py \
+python3 tools/neo4j-import/deps_to_neo.py \
         data/cargo/cargo_dependencies_03-18-2022.csv\
         data/fpm/fpm_dependencies_03-18-2022.csv \
         data/alire/alire_dependencies_03-18-2022.csv \
