@@ -6,7 +6,7 @@
 The aim of this code library is to assist researchers in investigation concerning cross-dependencies. The code library consists of operations over datasets for multiple software-ecosystems concerning and exploring the dependencies among them.
 
 # Data
-Get the latest dataset from [dasea.org](dasea.org) or generate new datasets with the [DaSEA-Tool](https://github.com/DaSEA-project/DASEA)
+Get the latest dataset from [dasea.org](dasea.org) or generate new datasets with the [DaSEA-Tool](https://github.com/DaSEA-project/DASEA) and place it in the data folder. Be aware of paths in scripts may vary from your operating system.
 
 # Requirements
 
@@ -23,4 +23,6 @@ pip install notebook
 GNU AFFERO GENERAL PUBLIC LICENSE
 Version 3, 19 November 2007
 
-Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/> Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.
+Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/> 
+
+Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.
