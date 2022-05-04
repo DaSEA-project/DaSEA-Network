@@ -1,5 +1,7 @@
 
 # importing module
+from dataclasses import dataclass
+from typing import List
 from pandas import *
 import requests
 
@@ -9,20 +11,22 @@ HEADERS = {
 }
 SNYK_REGISTRY = "https://security.snyk.io/api/listing?search={pkg_name}&type=any"
 
-
+@dataclass
+class PackageWithVulnerabilities():
+  name: str
+  vulnerabilities: List[any]
 
 # Find vulnerabilities
 def _check_pkg_vulnerabilities(pkg_name):
   # Get vulnerabilities
   url = SNYK_REGISTRY.format(pkg_name=pkg_name)
   r = requests.get(url, headers=HEADERS)
-  print(r.status_code)
-  print(r.json())
 
-  return r.json()
+  return r.json()['vulnerabilities']
 
 
 def main():
+  packages_with_vulnerabilities = []
   # reading CSV file
   data = read_csv("tools/neo4j/export.csv")
 
@@ -31,10 +35,11 @@ def main():
 
   # printing list data
   print('Packages:', package_names)
-  for package in package_names:
-    print('Package:', package)
+  for pkg_name in package_names:
+    print('Package:', pkg_name)
     print('Vulnerabilities:')
-    _check_pkg_vulnerabilities(package)
+    package = PackageWithVulnerabilities(pkg_name, _check_pkg_vulnerabilities(pkg_name))
+    packages_with_vulnerabilities.append(package)
     print('\n')
 
 
