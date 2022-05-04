@@ -1,6 +1,8 @@
 data/*
 out/*
 
+npm_out*
+
 # neo4j-admin import log file
 import.report 
 
