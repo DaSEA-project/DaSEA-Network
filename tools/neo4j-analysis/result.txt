@@ -1,0 +1,74 @@
+lua does not exist in luarocks, but exists in:
+[{'pkg.pkgman': 'cargo'}, {'pkg.pkgman': 'chromebrew'}, {'pkg.pkgman': 'conan'}, {'pkg.pkgman': 'homebrew'}, {'pkg.pkgman': 'nimble'}, {'pkg.pkgman': 'vcpkg'}]
+
+
+luasocket does not exist in luarocks, but exists in:
+[{'pkg.pkgman': 'vcpkg'}]
+
+
+luasocket does not exist in luarocks, but exists in:
+[{'pkg.pkgman': 'vcpkg'}]
+
+
+luafilesystem does not exist in luarocks, but exists in:
+[{'pkg.pkgman': 'vcpkg'}]
+
+
+inspect does not exist in luarocks, but exists in:
+[{'pkg.pkgman': 'cargo'}]
+
+
+luasec does not exist in luarocks, but exists in:
+[{'pkg.pkgman': 'vcpkg'}]
+
+
+luasec does not exist in luarocks, but exists in:
+[{'pkg.pkgman': 'vcpkg'}]
+
+
+cosmo does not exist in luarocks, but exists in:
+[{'pkg.pkgman': 'cargo'}]
+
+
+flu does not exist in luarocks, but exists in:
+[{'pkg.pkgman': 'cargo'}]
+
+
+argparse does not exist in luarocks, but exists in:
+[{'pkg.pkgman': 'cargo'}, {'pkg.pkgman': 'conan'}, {'pkg.pkgman': 'nimble'}, {'pkg.pkgman': 'vcpkg'}]
+
+
+c does not exist in nimble, but exists in:
+[{'pkg.pkgman': 'cargo'}]
+
+
+bipbuffer does not exist in nimble, but exists in:
+[{'pkg.pkgman': 'cargo'}]
+
+
+snappy does not exist in nimble, but exists in:
+[{'pkg.pkgman': 'cargo'}, {'pkg.pkgman': 'chromebrew'}, {'pkg.pkgman': 'conan'}, {'pkg.pkgman': 'homebrew'}, {'pkg.pkgman': 'vcpkg'}]
+
+
+nim does not exist in nimble, but exists in:
+[{'pkg.pkgman': 'chromebrew'}, {'pkg.pkgman': 'homebrew'}]
+
+
+b does not exist in nimble, but exists in:
+[{'pkg.pkgman': 'cargo'}]
+
+
+strings does not exist in nimble, but exists in:
+[{'pkg.pkgman': 'cargo'}]
+
+
+dependency does not exist in nimble, but exists in:
+[{'pkg.pkgman': 'cargo'}]
+
+
+d does not exist in nimble, but exists in:
+[{'pkg.pkgman': 'cargo'}]
+
+
+graphics/openjpeg does not exist in openbsd, but exists in:
+[{'pkg.pkgman': 'freebsd11'}, {'pkg.pkgman': 'netbsd9'}]
