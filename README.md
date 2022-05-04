@@ -1,3 +1,16 @@
 # DaSEA-Network
 
-1. Get the latest DaSEA dataset from dasea.org and place in the 'data' folder
+The aim of this code library is to assist researchers in investigation concerning cross-dependencies.
+
+# Installation
+
+> pip install notebook
+
+# Copyright
+
+                    GNU AFFERO GENERAL PUBLIC LICENSE
+                       Version 3, 19 November 2007
+
+ Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+ Everyone is permitted to copy and distribute verbatim copies
+ of this license document, but changing it is not allowed.
