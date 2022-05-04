@@ -1,7 +1,10 @@
-data/*
-out/*
+# ignore all csv-files in data/ directory
+data/**/*.csv
 
 # neo4j-admin import log file
 import.report 
 
+# macOS config file
 .DS_Store
+
+.vscode/

@@ -8,3 +8,9 @@ MATCH (n:Package)
 WITH n.name AS name, collect(n) AS nodes, count(*) AS count
 WHERE count > 1
 RETURN name, nodes, count;
+
+// Count all unique versions where pkg name and pkgman is a composite key
+MATCH (n:Version)
+WITH collect([n.pkg_name, n.pkgman]) AS nodes_list
+UNWIND nodes_list AS nodes
+RETURN count(nodes);
