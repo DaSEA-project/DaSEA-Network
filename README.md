@@ -1,16 +1,27 @@
 # DaSEA-Network
 
-The aim of this code library is to assist researchers in investigation concerning cross-dependencies.
+The aim of this code library is to assist researchers in investigation concerning cross-dependencies. The code library consists of operations over datasets for multiple software-ecosystems concerning and exploring the dependencies among them.
 
-# Installation
+# Data
+Get the latest dataset from [dasea.org](dasea.org) or generate new datasets with the [DaSEA-Tool](https://github.com/DaSEA-project/DASEA)
 
-> pip install notebook
+# Requirements
+
+**Important:** Install Neo4j from [here](https://neo4j.com/docs/operations-manual/current/installation/)
+
+```
+pip install notebook
+```
+
+
 
 # Copyright
+GNU AFFERO GENERAL PUBLIC LICENSE
 
-                    GNU AFFERO GENERAL PUBLIC LICENSE
-                       Version 3, 19 November 2007
+Version 3, 19 November 2007
 
- Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
- Everyone is permitted to copy and distribute verbatim copies
- of this license document, but changing it is not allowed.
+Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+
+Everyone is permitted to copy and distribute verbatim copies
+
+of this license document, but changing it is not allowed.
