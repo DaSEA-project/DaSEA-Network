@@ -1,7 +1,12 @@
 import csv
 import sys
-import hashlib
 
+def unfussy_reader(csv_reader):
+    while True:
+        try:
+            yield next(csv_reader)
+        except csv.Error:
+            continue
 
 def main(fnames):
     csv_writer = csv.writer(sys.stdout)
@@ -13,13 +18,15 @@ def main(fnames):
         with open(fname) as fp:
             csv_reader = csv.reader(fp, delimiter=",")
             next(csv_reader)  # Skip the header line
-            for row in csv_reader:
-                (
-                    idx,
-                    pkg_idx,
-                    
-                ) = row[0:2]
-                
+            reader = unfussy_reader(csv_reader)
+            for row in reader:
+                try:
+                    (
+                        idx,
+                        pkg_idx
+                    ) = row[0:2]
+                except:
+                    continue
                 csv_writer.writerow(
                     (
                         f'package'+pkg_idx+pkgman.lower(),
@@ -27,6 +34,7 @@ def main(fnames):
                         "HAS_VERSION",
                     )
                 )
+            
 
 
 if __name__ == "__main__":

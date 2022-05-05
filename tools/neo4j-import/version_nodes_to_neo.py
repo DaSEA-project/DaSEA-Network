@@ -1,7 +1,13 @@
 import csv
 import sys
-import hashlib
 
+
+def unfussy_reader(csv_reader):
+    while True:
+        try:
+            yield next(csv_reader)
+        except csv.Error:
+            continue
 
 def main(fnames):
     csv_writer = csv.writer(sys.stdout)
@@ -15,17 +21,21 @@ def main(fnames):
         with open(fname) as fp:
             csv_reader = csv.reader(fp, delimiter=",")
             next(csv_reader)  # Skip the header line
-            for row in csv_reader:
-                (
-                    idx,
-                    _,
-                    name,
-                    version,
-                    _,
-                    _,
-                    homepage,
-                    repo
-                ) = row[0:8]
+            reader = unfussy_reader(csv_reader)
+            for row in reader:
+                try:
+                    (
+                        idx,
+                        _,
+                        name,
+                        version,
+                        _,
+                        _,
+                        homepage,
+                        repo
+                    ) = row[0:8]
+                except ValueError:
+                    continue
                 csv_writer.writerow(
                     (
                         f'version'+idx+pkgman.lower(),
