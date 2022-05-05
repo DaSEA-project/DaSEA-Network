@@ -2,6 +2,8 @@
 This script loads in data from a csv that contain data about what packages refer to other packages that
 do not exist in the current ecosystem. Prints result to stdout for now.
 """
+import sys
+import csv
 import pandas as pd
 from neo4j import GraphDatabase
 
@@ -10,6 +12,7 @@ def load_csv_data(path):
     target_name_pkgs = df['target_name']
     unique_target_name_pkgs = set(target_name_pkgs)
     return [s.strip() for s in set(unique_target_name_pkgs)]
+
 
 def check_if_pkg_exists(pkg_name, driver_session):
         result = driver_session.run(
@@ -20,6 +23,15 @@ def check_if_pkg_exists(pkg_name, driver_session):
 
 
 def main():
+    csv_writer = csv.writer(sys.stdout)
+    csv_writer.writerow(
+        (
+            "pkg",
+            "missing_from",
+            "found_in"
+        )
+    )
+
     csv_files = [
         'data/research/alire_output.csv',
         'data/research/luarocks_output.csv',
@@ -28,7 +40,7 @@ def main():
     ]
     uri = "bolt://localhost:7687"
     driver = GraphDatabase.driver(uri, auth=("neo4j", "admin"))
-    d = []
+    
     with driver.session() as session:
         for csv_file in csv_files:
             pkgman = csv_file.split("/")[-1].split("_")[0]
@@ -36,11 +48,14 @@ def main():
             for package in packages:
                 result = check_if_pkg_exists(package, session)
                 if result:
-                    print(f'{package} does not exist in {pkgman}, but exists in:')
-                    print(result)
-                    d.append(result)
-                    print()
-                    print()
+                    for entry in result:
+                        csv_writer.writerow(
+                            (
+                                package,
+                                pkgman,
+                                entry['pkg.pkgman'],
+                            )
+                        )
 
 
 if __name__ == "__main__":
