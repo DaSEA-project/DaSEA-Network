@@ -1,6 +1,8 @@
 # ignore all csv-files in data/ directory
 data/**/*.csv
 
+npm_out*
+
 # neo4j-admin import log file
 import.report 
 
