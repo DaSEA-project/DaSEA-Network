@@ -1,6 +1,5 @@
 import csv
 import sys
-import hashlib
 
 
 def main(fnames):

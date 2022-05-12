@@ -1,0 +1,9 @@
+﻿[
+  {
+    "name": "airspy",
+    "pkgmans": [
+      "cargo",
+      "homebrew"
+    ]
+  }
+]

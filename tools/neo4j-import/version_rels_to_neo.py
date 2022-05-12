@@ -1,12 +1,6 @@
 import csv
 import sys
-
-def unfussy_reader(csv_reader):
-    while True:
-        try:
-            yield next(csv_reader)
-        except csv.Error:
-            continue
+        
 
 def main(fnames):
     csv_writer = csv.writer(sys.stdout)
@@ -16,10 +10,9 @@ def main(fnames):
     for fname in fnames:
         pkgman = fname.split("/")[-1].split("_")[0]
         with open(fname) as fp:
-            csv_reader = csv.reader(fp, delimiter=",")
+            csv_reader = csv.reader((x.replace('\0', '') for x in fp), delimiter=",")
             next(csv_reader)  # Skip the header line
-            reader = unfussy_reader(csv_reader)
-            for row in reader:
+            for row in csv_reader:
                 try:
                     (
                         idx,
