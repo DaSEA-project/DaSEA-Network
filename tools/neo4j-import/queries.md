@@ -14,7 +14,7 @@ WHERE count > 1
 RETURN name, pkgmans;
 ```
 
-## Count all unique versions where pkg name and pkgman is a composite key
+## Count all unique versions where pkg_name and pkgman is a composite key
 ```sql
 MATCH (n:Version)
 WITH collect([n.pkg_name, n.pkgman]) AS nodes_list
