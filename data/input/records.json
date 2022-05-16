@@ -5,5 +5,15 @@
       "cargo",
       "homebrew"
     ]
+  },
+  {
+    "name": "glib",
+    "pkgmans": [
+      "cargo",
+      "chromebrew",
+      "conan",
+      "homebrew",
+      "vcpkg"
+    ]
   }
 ]
