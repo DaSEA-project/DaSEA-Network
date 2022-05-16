@@ -1,6 +1,6 @@
 # Cypher Queries
 
-## Get all :Package-nodes that has the <name> equals glib
+## Get all :Package-nodes that has the \<name> equals glib
 ```sql
 MATCH (n:Package{name: 'glib'})
 RETURN n.pkgman
