@@ -1,0 +1,31 @@
+# Missing deps
+
+- Alire
+  - gnat : no results
+  - unixODBC : no results
+  - case(toolchain) : no results
+- Clojure
+  - Has a lot of references to language itself and core library
+  - Also references to unknows
+- Chromebrew
+  - libjpeg_turbo : no results, but lib called libjpeg-turbo exists
+  - gfortran : lives in cargo
+  - x86_64 : lives in cargo
+  - GenuineIntel : no results
+  - i686 : no results
+  - gyp : no results
+- FPM
+  - erloff : no results
+  - parff : no results
+  - quaff_asserts : no results
+- Homebrew
+  - python : exists in cargo and nimble
+- netbsd0
+  - security/botan-devel : no results
+- Nimble
+  - nim : language itself
+  - nimrod : no results
+- Luarocks
+  - lua : language itself, exists in many pkgmans
+  - lgi : exitsts, but version constraint in name, which messes up
+  - lcurses : exitsts, but version constraint in name, which messes up
