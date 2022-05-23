@@ -11,7 +11,7 @@ def main(fnames):
     csv_writer = csv.writer(sys.stdout)
 
     header_line = (
-        ":ID,pkg_name,pkgman,version,:LABEL,homepage,repo"
+        ":ID,pkg_name,pkgman,version,:LABEL,url"
     )
     print(header_line)
     for fname in fnames:
@@ -19,7 +19,6 @@ def main(fnames):
         with open(fname) as fp:
             csv_reader = csv.reader((x.replace('\0', '') for x in fp), delimiter=",")
             next(csv_reader)  # Skip the header line
-            # reader = unfussy_reader(csv_reader)
             for row in csv_reader:
                 try:
                     (
@@ -35,6 +34,11 @@ def main(fnames):
                 except ValueError as e:
                     logging.DEBUG(e)
                     raise e
+                url = ""
+                if repo:
+                    url = repo
+                elif homepage:
+                    url = homepage
                 csv_writer.writerow(
                     (
                         f'version'+idx+pkgman.lower(),
@@ -42,8 +46,7 @@ def main(fnames):
                         pkgman,
                         version,
                         "Version",
-                        repo,
-                        homepage
+                        url
                     )
                 )
 
