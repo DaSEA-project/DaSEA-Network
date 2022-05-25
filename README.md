@@ -1,12 +1,31 @@
 ![](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)
 
 
-# DaSEA-Network
+# DaSEA Network
+This code library aims to assist researchers in investigating cross-dependencies with a set of tools. These tools can be used to process and analyse the DaSEA dataset.
 
-The aim of this code library is to assist researchers in investigation concerning cross-dependencies. The code library consists of operations over datasets for multiple software-ecosystems concerning and exploring the dependencies among them.
+# Tools 
+
+The `tools/` directory contains various tools to process and analyse the DaSEA dataset, that are describe below.
+
+## [case-links](https://github.com/DaSEA-project/DaSEA-Network/tree/main/tools/case-links)
+
+Use this tool to get all dependency links to missing packages within the same ecosystem.
+
+## [neo4j-cross](https://github.com/DaSEA-project/DaSEA-Network/tree/main/tools/neo4j-cross)
+
+This tool uses combined version information from all available ecosystems to determine if a package exists in more than one ecosystem based on the source code URL. 
+
+## [neo4j-import](https://github.com/DaSEA-project/DaSEA-Network/tree/main/tools/neo4j-import)
+
+This tool combines data from the DaSEA dataset into a format that can be imported into Neo4j.
+
+## [snyk](https://github.com/DaSEA-project/DaSEA-Network/tree/main/tools/snyk)
+
+_TBA_
 
 # Data
-Get the latest dataset from [dasea.org](dasea.org) or generate new datasets with the [DaSEA-Tool](https://github.com/DaSEA-project/DASEA) and place it in the data folder. Be aware of paths in scripts may vary from your operating system.
+Get the latest dataset from [dasea.org](https://dasea-project.github.io/DASEA/) or generate new datasets with the [DaSEA-Tool](https://github.com/DaSEA-project/DASEA) and place it in the data folder. Be aware that paths in scripts may vary from your operating system.
 
 # Requirements
 
