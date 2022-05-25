@@ -8,9 +8,10 @@ dasea_data/**/*.csv
 # neo4j-admin import log file
 import.report 
 
-# macOS config file
+# macOS Finder config file
 .DS_Store
 
+# personal vscode settigns
 .vscode/
 
 # notebook checkpoints
