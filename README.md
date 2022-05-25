@@ -25,7 +25,7 @@ This tool combines data from the DaSEA dataset into a format that can be importe
 _TBA_
 
 # Data
-Get the latest dataset from [dasea.org](https://dasea-project.github.io/DASEA/) or generate new datasets with the [DaSEA-Tool](https://github.com/DaSEA-project/DASEA) and place it in the data folder. Be aware that paths in scripts may vary from your operating system.
+Get the latest dataset from [dasea.org](https://dasea-project.github.io/DASEA/) or generate new datasets with the [DaSEA-Tool](https://github.com/DaSEA-project/DASEA) and place it in the `dasea_data/` folder. Be aware that paths in scripts may vary from your operating system.
 
 # Requirements
 
