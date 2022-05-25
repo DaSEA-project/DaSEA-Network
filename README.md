@@ -8,7 +8,7 @@ This code library aims to assist researchers in investigating cross-dependencies
 
 The `tools/` directory contains various tools to process and analyse the DaSEA dataset, that are describe below.
 
-## [case-links](https://github.com/DaSEA-project/DaSEA-Network/tree/main/tools/case-links)
+## [missing-deps](https://github.com/DaSEA-project/DaSEA-Network/tree/main/tools/missing-deps)
 
 Use this tool to get all dependency links to missing packages within the same ecosystem.
 
