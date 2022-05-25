@@ -1,7 +1,9 @@
-# ignore all csv-files in data/ directory
-data/**/*.csv
+# ignore all csv-files in dasea_data/ directory
+dasea_data/**/*.csv
 
-npm_out*
+# ignore all csv-files in out labelled directories, since they can  be generated
+**/out/**.csv
+
 
 # neo4j-admin import log file
 import.report 
@@ -10,3 +12,6 @@ import.report
 .DS_Store
 
 .vscode/
+
+# notebook checkpoints
+.ipynb_checkpoints
