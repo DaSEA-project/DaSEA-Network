@@ -20,7 +20,7 @@ This tool uses combined version information from all available ecosystems to det
 
 This tool combines data from the DaSEA dataset into a format that can be imported into Neo4j.
 
-## [snyk](https://github.com/DaSEA-project/DaSEA-Network/tree/main/tools/snyk)
+## [snyk-check](https://github.com/DaSEA-project/DaSEA-Network/tree/main/tools/snyk-check)
 
 _TBA_
 
