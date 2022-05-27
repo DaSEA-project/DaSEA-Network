@@ -14,6 +14,23 @@ WHERE count > 1
 RETURN name, pkgmans;
 ```
 
+
+MATCH (n:Version)
+WITH collect(distinct(n.pkg_name)) as names, n.url AS url, collect(distinct(n.pkgman)) AS pkgmans
+WHERE size(pkgmans) > 1 and url is not null
+RETURN names, url, pkgmans;
+
+MATCH (n:Version)
+WITH COLLECT(distinct({name:n.pkg_name, manager:n.pkgman})) AS materials, n.url AS url, collect(distinct(n.pkgman)) AS pkgmans
+WHERE size(pkgmans) > 1 and url is not null
+RETURN materials, url, pkgmans;
+
+MATCH (n:Version)
+WITH COLLECT(distinct({name:n.pkg_name})) AS materials, n.url AS url, collect(distinct(n.pkgman)) AS pkgmans
+WHERE size(pkgmans) > 1 and url is not null
+RETURN materials, url, pkgmans;
+
+
 ## Count all unique versions where pkg_name and pkgman is a composite key
 ```sql
 MATCH (n:Version)

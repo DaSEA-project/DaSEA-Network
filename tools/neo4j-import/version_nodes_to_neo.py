@@ -11,7 +11,7 @@ def main(fnames):
     csv_writer = csv.writer(sys.stdout)
 
     header_line = (
-        ":ID,pkg_name,version,:LABEL,url"
+        ":ID,pkg_name,pkgman,version,:LABEL,url"
     )
     print(header_line)
     for fname in fnames:
@@ -43,6 +43,7 @@ def main(fnames):
                     (
                         f'version'+idx+pkgman.lower(),
                         name,
+                        pkgman.lower(),
                         version,
                         "Version",
                         url
