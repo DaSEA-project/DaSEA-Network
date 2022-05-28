@@ -26,7 +26,7 @@ RETURN names, url;
 ```sql
 CALL {
     MATCH (n:Version)
-    WITH COLLECT(distinct(n.ID)) as ids ,n.url AS urls, COLLECT(DISTINCT(n.pkgman)) AS pkgmans
+    WITH COLLECT(distinct(n.uid)) as ids ,n.url AS urls, COLLECT(DISTINCT(n.pkgman)) AS pkgmans
     WHERE size(pkgmans) > 1 AND urls IS NOT NULL
     RETURN urls as uniq_urls, ids as ids
 }
