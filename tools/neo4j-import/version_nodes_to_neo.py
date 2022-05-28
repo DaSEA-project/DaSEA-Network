@@ -11,7 +11,7 @@ def main(fnames):
     csv_writer = csv.writer(sys.stdout)
 
     header_line = (
-        ":ID,pkg_name,pkgman,version,:LABEL,url"
+        ":ID,uid,pkg_name,pkgman,version,:LABEL,url"
     )
     print(header_line)
     for fname in fnames:
@@ -41,6 +41,7 @@ def main(fnames):
                     url = homepage
                 csv_writer.writerow(
                     (
+                        f'version'+idx+pkgman.lower(),
                         f'version'+idx+pkgman.lower(),
                         name,
                         pkgman.lower(),

@@ -16,11 +16,20 @@ RETURN name, pkgmans;
 
 ```sql
 MATCH (n:Version)
-WITH n.url AS url, collect(distinct(n.pkgman)) AS pkgmans
-WHERE size(pkgmans) > 1 and url is not null
-RETURN names, url, pkgmans;
+WITH COLLECT(DISTINCT({name: n.pkg_name, pkgman: n.pkgman})) AS names, n.url AS url, COLLECT(DISTINCT(n.pkgman)) AS pkgmans
+WHERE size(pkgmans) > 1 AND url IS NOT NULL
+RETURN names, url;
 ```
 
+```sql
+CALL {
+    MATCH (n:Version)
+    WITH COLLECT(distinct(n.ID)) as ids ,n.url AS urls, COLLECT(DISTINCT(n.pkgman)) AS pkgmans
+    WHERE size(pkgmans) > 1 AND urls IS NOT NULL
+    RETURN urls as uniq_urls, ids as ids
+}
+return uniq_urls, ids;
+```
 
 ## Count all unique versions where pkg_name and pkgman is a composite key
 ```sql
