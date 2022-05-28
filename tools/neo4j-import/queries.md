@@ -110,3 +110,21 @@ CALL {
 UNWIND pkgmans AS pmans
 RETURN name, homepages, pmans;
 ```
+
+## GET package name with package manager combination for matching urls:
+
+```sql
+MATCH (n:Version)
+WITH COLLECT(DISTINCT({name: n.pkg_name, pkgman: n.pkgman})) AS names, n.url AS url
+WHERE size(names) > 1 AND url IS NOT NULL
+RETURN names, url;
+```
+
+## Get also total packages count for the matching url:
+
+```sql
+MATCH (n:Version)
+WITH COLLECT(DISTINCT({name: n.pkg_name, pkgman: n.pkgman})) AS names, n.url AS url
+WHERE size(names) > 1 AND url IS NOT NULL
+RETURN names, url, size(names) as total_pkgs;
+```
