@@ -6,7 +6,7 @@ dasea_data/**/*.csv
 
 
 # neo4j-admin import log file
-import.report 
+import.report
 
 # macOS Finder config file
 .DS_Store
@@ -16,3 +16,7 @@ import.report
 
 # notebook checkpoints
 .ipynb_checkpoints
+
+# neo results data for Snyk
+neo-data/*
+!neo-data/.gitkeep

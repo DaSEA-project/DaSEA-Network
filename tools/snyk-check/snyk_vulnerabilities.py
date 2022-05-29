@@ -4,6 +4,7 @@ from dataclasses import dataclass
 from typing import List
 from pandas import *
 import requests
+import json
 
 HEADERS = {
     "User-Agent": "DaSEA Research Project (Please don't ban, https://dasea.org)",
@@ -21,21 +22,28 @@ def _check_pkg_vulnerabilities(pkg_name):
   # Get vulnerabilities
   url = SNYK_REGISTRY.format(pkg_name=pkg_name)
   r = requests.get(url, headers=HEADERS)
-
-  return r.json()['vulnerabilities']
+  print(r.status_code)
+  if r.status_code == 200:
+    data = r.json()['vulnerabilities']
+    print(data)
+    return data
 
 
 def main():
   packages_with_vulnerabilities = []
   # reading CSV file
-  data = read_csv("data/research/pkg_in_multiple_ecosytems.csv")
+  # data = read_csv("neo-data/order_by_pckg_managers.csv")
 
-  # converting column data to list
-  package_names = data['name'].tolist()
+  # Opening JSON file
+  with open('neo-data/order_by_pckg_managers.json', encoding='utf-8-sig') as json_file:
+      data = json.load(json_file)
+      for i in range(len(data)):
+        packages_with_vulnerabilities = packages_with_vulnerabilities + data[i]['names']
 
   # printing list data
-  print('Packages:', package_names)
-  for pkg_name in package_names:
+  print('Packages:', packages_with_vulnerabilities)
+  for package in packages_with_vulnerabilities:
+    pkg_name = package['name']
     print('Package:', pkg_name)
     print('Vulnerabilities:')
     package = PackageWithVulnerabilities(pkg_name, _check_pkg_vulnerabilities(pkg_name))

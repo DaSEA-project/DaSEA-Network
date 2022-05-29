@@ -128,3 +128,22 @@ WITH COLLECT(DISTINCT({name: n.pkg_name, pkgman: n.pkgman})) AS names, n.url AS 
 WHERE size(names) > 1 AND url IS NOT NULL
 RETURN names, url, size(names) as total_pkgs;
 ```
+
+## Take only for more than 1 ecosystem
+
+```sql
+MATCH (n:Version)
+WITH COLLECT(DISTINCT({name: n.pkg_name, pkgman: n.pkgman})) AS names, n.url AS url, COLLECT(DISTINCT(n.pkgman)) AS pkgmans
+WHERE size(pkgmans) > 1 AND url IS NOT NULL
+RETURN names, url, pkgmans, size(names) as total_pkgs;
+```
+
+## Order by most packages
+
+```sql
+MATCH (n:Version)
+WITH COLLECT(DISTINCT({name: n.pkg_name, pkgman: n.pkgman})) AS names, n.url AS url, COLLECT(DISTINCT(n.pkgman)) AS pkgmans
+WHERE size(pkgmans) > 1 AND url IS NOT NULL
+RETURN names, url, pkgmans, size(names) as total_pkgs
+ORDER BY total_pkgs DESC;
+```
