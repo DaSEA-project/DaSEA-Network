@@ -7,7 +7,7 @@
 50,https://github.com/yeikos/js.merge,"{'clojars': 1, 'npm': 2424}",2425
 46,https://github.com/zenorocha/clipboard.js,"{'clojars': 1, 'npm': 2418}",2419
 52,https://github.com/getsentry/raven-js,"{'clojars': 1, 'npm': 1904}",1905
-209,https://github.com/grpc/grpc.git,"{'homebrew': 4, 'npm': 1325}",1329
+209,https://github.com/grpc/grpc.git,"{'homebrew': 4, 'npm': 1325, 'conan': 2, 'vcpkg': 3, 'freebsd12': 10}",1344
 47,https://github.com/ftlabs/fastclick,"{'clojars': 1, 'npm': 1004}",1005
 58,https://github.com/mrdoob/three.js,"{'clojars': 4, 'npm': 910, 'freebsd12': 1}",915
 51,https://github.com/bestiejs/platform.js,"{'clojars': 1, 'npm': 592}",593
