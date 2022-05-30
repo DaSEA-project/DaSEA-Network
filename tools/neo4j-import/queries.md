@@ -147,3 +147,26 @@ WHERE size(pkgmans) > 1 AND url IS NOT NULL
 RETURN names, url, pkgmans, size(names) as total_pkgs
 ORDER BY total_pkgs DESC;
 ```
+
+## Check for specific cross-ecosystem package url
+
+```sql
+MATCH (n:Version)
+WITH COLLECT(DISTINCT({name: n.pkg_name, pkgman: n.pkgman})) AS names, n.url AS url
+WHERE url contains "https://github.com/Dav1dde/glad"
+RETURN names, url;
+```
+
+```sql
+MATCH (n:Version)
+WITH COLLECT(DISTINCT({name: n.pkg_name, pkgman: n.pkgman})) AS names, n.url AS url
+WHERE url contains "https://github.com/nayuki/"
+RETURN names, url;
+```
+
+```sql
+MATCH (n:Version)
+WITH COLLECT(DISTINCT({name: n.pkg_name, pkgman: n.pkgman})) AS names, n.url AS url
+WHERE url contains "https://github.com/gflags/gflags"
+RETURN names, url;
+```

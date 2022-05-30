@@ -20,3 +20,6 @@ import.report
 # neo results data for Snyk
 neo-data/*
 !neo-data/.gitkeep
+
+example.error
+import.log

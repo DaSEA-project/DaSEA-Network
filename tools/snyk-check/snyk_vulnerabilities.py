@@ -40,15 +40,25 @@ def main():
       for i in range(len(data)):
         packages_with_vulnerabilities = packages_with_vulnerabilities + data[i]['names']
 
+
+  # with open('neo-data/order_by_pckg_managers.json', encoding='utf-8-sig') as json_file:
+  #     data = json.load(json_file)
+  #     for i in range(len(data)):
+  #       for j in range(len(data[i]['names'])):
+  #         pkg_name = data[i]['names'][j]['name']
+  #         pkg_manager = data[i]['names'][j]['pkgman']
+  #         if(pkg_manager == "clojars"):
+  #           packages_with_vulnerabilities.append(pkg_name)
+
   # printing list data
-  print('Packages:', packages_with_vulnerabilities)
-  for package in packages_with_vulnerabilities:
-    pkg_name = package['name']
-    print('Package:', pkg_name)
-    print('Vulnerabilities:')
-    package = PackageWithVulnerabilities(pkg_name, _check_pkg_vulnerabilities(pkg_name))
-    packages_with_vulnerabilities.append(package)
-    print('\n')
+  print('Packages:', len(packages_with_vulnerabilities))
+  # for package in packages_with_vulnerabilities:
+  #   pkg_name = package['name']
+  #   print('Package:', pkg_name)
+  #   print('Vulnerabilities:')
+  #   package = PackageWithVulnerabilities(pkg_name, _check_pkg_vulnerabilities(pkg_name))
+  #   packages_with_vulnerabilities.append(package)
+  #   print('\n')
 
 
 if __name__ == "__main__":
