@@ -11,14 +11,24 @@ HEADERS = {
     "From": "daseaITU@gmail.com",
 }
 SNYK_REGISTRY = "https://security.snyk.io/api/listing?search={pkg_name}&type=any"
-
+NVD_API = ""
 @dataclass
 class PackageWithVulnerabilities():
   name: str
   vulnerabilities: List[any]
 
-# Find vulnerabilities
-def _check_pkg_vulnerabilities(pkg_name):
+# Find Snyk vulnerabilities
+def _check_pkg_vulnerabilities_snyk(pkg_name):
+  # Get vulnerabilities
+  url = SNYK_REGISTRY.format(pkg_name=pkg_name)
+  r = requests.get(url, headers=HEADERS)
+  print(r.status_code)
+  if r.status_code == 200:
+    data = r.json()['vulnerabilities']
+    print(data)
+    return data
+
+def _check_pkg_vulnerabilities_nvd(pkg_name):
   # Get vulnerabilities
   url = SNYK_REGISTRY.format(pkg_name=pkg_name)
   r = requests.get(url, headers=HEADERS)
@@ -30,7 +40,7 @@ def _check_pkg_vulnerabilities(pkg_name):
 
 
 def main():
-  packages_with_vulnerabilities = []
+  cross_ecosystem_packages = []
   # reading CSV file
   # data = read_csv("neo-data/order_by_pckg_managers.csv")
 
@@ -38,9 +48,11 @@ def main():
   with open('neo-data/order_by_pckg_managers.json', encoding='utf-8-sig') as json_file:
       data = json.load(json_file)
       for i in range(len(data)):
-        packages_with_vulnerabilities = packages_with_vulnerabilities + data[i]['names']
+        if i == 25:
+          break
+        cross_ecosystem_packages.append(data[i])
 
-
+  # print(cross_ecosystem_packages)
   # with open('neo-data/order_by_pckg_managers.json', encoding='utf-8-sig') as json_file:
   #     data = json.load(json_file)
   #     for i in range(len(data)):
@@ -51,14 +63,22 @@ def main():
   #           packages_with_vulnerabilities.append(pkg_name)
 
   # printing list data
-  print('Packages:', len(packages_with_vulnerabilities))
-  # for package in packages_with_vulnerabilities:
-  #   pkg_name = package['name']
-  #   print('Package:', pkg_name)
-  #   print('Vulnerabilities:')
-  #   package = PackageWithVulnerabilities(pkg_name, _check_pkg_vulnerabilities(pkg_name))
-  #   packages_with_vulnerabilities.append(package)
-  #   print('\n')
+  print('Packages:', len(cross_ecosystem_packages))
+  for package in cross_ecosystem_packages:
+    packages_with_vulnerabilities = []
+    print(package)
+    pkg_url = package['url']
+    print('Package:', pkg_url)
+    pkg_names_mapping = package['names']
+    print('Package exists as', pkg_names_mapping)
+    for pkg in pkg_names_mapping:
+      print('Vulnerabilities:')
+      print('Package name:', pkg['name'])
+      print('Package manager:', pkg['pkgman'])
+
+    package = PackageWithVulnerabilities(pkg['name'], _check_pkg_vulnerabilities_nvd(pkg['name']))
+    packages_with_vulnerabilities.append(package)
+    print('\n')
 
 
 if __name__ == "__main__":
