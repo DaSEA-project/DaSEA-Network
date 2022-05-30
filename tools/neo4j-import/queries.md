@@ -78,39 +78,6 @@ CALL {
 RETURN count(n)
 ```
 
-## Playground
-
-```sql
-MATCH (n:Package) --> (v:Version)
-WITH v.repo AS repo, collect(n) AS nodes, count(*) AS count
-WHERE count > 1 AND repo IS NOT NULL
-RETURN repo, nodes, count;
-
-MATCH (n:Package) --> (v:Version)
-WITH v.repo AS repo
-WHERE repo IS NOT NULL
-RETURN repo;
-
-
-MATCH (n:Package{name: 'emoji'}) --> (v:Version)
-WITH  v.homepage AS homepages, v.repo as repos
-UNWIND homepages + repos as combinedurls
-RETURN combinedurls
-
-
-MATCH (n:Package)
-WITH n.name AS name, collect(n.pkgman) AS pkgmans, COUNT(*) AS count
-WHERE count > 7
-CALL {
-    WITH name
-    MATCH (v:Version{pkg_name: name})
-    WITH DISTINCT v.homepage AS homepages
-    return homepages
-}
-UNWIND pkgmans AS pmans
-RETURN name, homepages, pmans;
-```
-
 ## GET package name with package manager combination for matching urls:
 
 ```sql

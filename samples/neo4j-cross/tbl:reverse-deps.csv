@@ -1,0 +1,352 @@
+,url,count_deps,count_total
+56,https://github.com/lodash/lodash,"{'clojars': 5, 'npm': 214331}",214336
+225,https://github.com/facebook/react,"{'npm': 191128, 'rubygems': 6}",191134
+53,https://github.com/facebook/immutable-js,"{'clojars': 6, 'npm': 8429}",8435
+223,https://github.com/electron/electron,"{'npm': 4349, 'freebsd12': 1}",4350
+169,https://github.com/ninja-build/ninja,"{'conan': 1, 'freebsd12': 2608, 'openbsd69': 428}",3037
+50,https://github.com/yeikos/js.merge,"{'clojars': 1, 'npm': 2424}",2425
+46,https://github.com/zenorocha/clipboard.js,"{'clojars': 1, 'npm': 2418}",2419
+52,https://github.com/getsentry/raven-js,"{'clojars': 1, 'npm': 1904}",1905
+209,https://github.com/grpc/grpc.git,"{'homebrew': 4, 'npm': 1325}",1329
+47,https://github.com/ftlabs/fastclick,"{'clojars': 1, 'npm': 1004}",1005
+58,https://github.com/mrdoob/three.js,"{'clojars': 4, 'npm': 910, 'freebsd12': 1}",915
+51,https://github.com/bestiejs/platform.js,"{'clojars': 1, 'npm': 592}",593
+5,https://github.com/bytecodealliance/wasmtime,"{'cargo': 464, 'conan': 1}",465
+54,https://github.com/Stuk/jszip,"{'clojars': 2, 'npm': 381}",383
+224,https://github.com/facebook/watchman,"{'npm': 354, 'freebsd12': 1}",355
+1,https://github.com/solana-labs/solana-program-library,"{'cargo': 253, 'npm': 7}",260
+35,https://github.com/ninja-build/ninja/archive/v1.10.2.tar.gz,"{'chromebrew': 3, 'homebrew': 193}",196
+41,https://github.com/reactstrap/reactstrap,"{'clojars': 4, 'npm': 175}",179
+226,https://github.com/cucumber/gherkin3,"{'npm': 156, 'rubygems': 3}",159
+73,https://github.com/lz4/lz4,"{'conan': 12, 'freebsd12': 91, 'vcpkg': 10, 'openbsd69': 17}",130
+77,https://github.com/mesonbuild/meson,"{'conan': 0, 'vcpkg': 32, 'openbsd69': 96}",128
+259,https://github.com/xianyi/OpenBLAS,"{'vcpkg': 3, 'freebsd12': 118, 'netbsd9': 0}",121
+33,https://github.com/westes/flex/releases/download/v2.6.4/flex-2.6.4.tar.gz,"{'chromebrew': 4, 'homebrew': 110}",114
+11,https://github.com/tree-sitter/tree-sitter,"{'cargo': 108, 'freebsd12': 1}",109
+227,https://github.com/rmosolgo/graphql-ruby,"{'npm': 4, 'rubygems': 97}",101
+151,https://github.com/alsa-project/alsa-lib,"{'conan': 5, 'freebsd12': 93}",98
+333,https://github.com/OpenPrinting/cups,"{'freebsd12': 67, 'openbsd69': 21}",88
+62,https://github.com/cgrand/macrovich,"{'clojars': 86, 'npm': 2}",88
+18,https://github.com/rust-lang/mdBook,"{'cargo': 84, 'freebsd12': 1, 'openbsd69': 0}",85
+327,https://github.com/elixir-lang/elixir,"{'freebsd12': 69, 'openbsd69': 1}",70
+281,https://github.com/haskell/cabal,"{'freebsd12': 57, 'openbsd69': 11}",68
+306,https://github.com/wxWidgets/wxWidgets,"{'vcpkg': 2, 'freebsd12': 65}",67
+175,https://github.com/uclouvain/openjpeg,"{'conan': 9, 'vcpkg': 7, 'freebsd12': 39, 'openbsd69': 10}",65
+174,https://github.com/AcademySoftwareFoundation/openexr,"{'conan': 8, 'freebsd12': 41, 'openbsd69': 16}",65
+146,https://github.com/nlohmann/json,"{'conan': 22, 'vcpkg': 15, 'freebsd12': 24}",61
+181,https://github.com/google/snappy,"{'conan': 5, 'freebsd12': 44, 'vcpkg': 7, 'openbsd69': 2}",58
+269,https://github.com/hunspell/hunspell,"{'vcpkg': 0, 'freebsd12': 38, 'openbsd69': 15}",53
+94,https://github.com/google/googletest,"{'conan': 0, 'vcpkg': 7, 'freebsd12': 27, 'netbsd9': 9, 'openbsd69': 10}",53
+14,https://github.com/oneapi-src/oneTBB,"{'cargo': 2, 'conan': 8, 'freebsd12': 38, 'openbsd69': 4}",52
+25,https://github.com/google/flatbuffers,"{'cargo': 43, 'freebsd12': 6, 'openbsd69': 0}",49
+309,https://github.com/rebar/rebar,"{'freebsd12': 45, 'openbsd69': 2}",47
+142,https://github.com/AcademySoftwareFoundation/Imath,"{'conan': 1, 'vcpkg': 2, 'freebsd12': 42}",45
+251,https://github.com/webmproject/libvpx,"{'vcpkg': 1, 'freebsd12': 35, 'openbsd69': 7}",43
+201,https://github.com/pybind/pybind11,"{'conan': 1, 'vcpkg': 2, 'freebsd12': 18, 'netbsd9': 21}",42
+252,https://github.com/LMDB/lmdb,"{'vcpkg': 1, 'freebsd12': 39, 'openbsd69': 2}",42
+91,https://github.com/g-truc/glm,"{'conan': 1, 'freebsd12': 33, 'openbsd69': 7}",41
+69,https://github.com/webmproject/libwebp,"{'conan': 11, 'vcpkg': 10, 'openbsd69': 20}",41
+145,https://github.com/open-source-parsers/jsoncpp,"{'conan': 1, 'vcpkg': 7, 'freebsd12': 29, 'netbsd9': 0, 'openbsd69': 4}",41
+210,https://github.com/KhronosGroup/Vulkan-Headers,"{'conan': 7, 'freebsd12': 27, 'vcpkg': 1, 'openbsd69': 5}",40
+13,https://github.com/iotaledger/iota.rs,"{'cargo': 38, 'npm': 2}",40
+180,https://github.com/protocolbuffers/protobuf,"{'conan': 9, 'vcpkg': 27, 'netbsd9': 4}",40
+235,https://github.com/jiixyj/epoll-shim,"{'freebsd12': 38, 'netbsd9': 0, 'openbsd69': 1}",39
+3,https://github.com/matrix-org/matrix-rust-sdk,"{'cargo': 38, 'npm': 1}",39
+79,https://github.com/libexpat/libexpat,"{'conan': 18, 'vcpkg': 21}",39
+89,https://github.com/gflags/gflags,"{'conan': 2, 'vcpkg': 10, 'freebsd12': 25, 'netbsd9': 0, 'openbsd69': 1}",38
+267,https://github.com/google/glog,"{'vcpkg': 13, 'freebsd12': 22, 'openbsd69': 0}",35
+106,https://github.com/awslabs/aws-c-common,"{'conan': 12, 'freebsd12': 13, 'vcpkg': 10}",35
+173,https://github.com/KhronosGroup/OpenCL-Headers,"{'conan': 2, 'vcpkg': 5, 'freebsd12': 26, 'netbsd9': 2}",35
+4,https://github.com/hotg-ai/rune,"{'cargo': 28, 'npm': 7}",35
+260,https://github.com/opencv/opencv,"{'vcpkg': 6, 'freebsd12': 27, 'openbsd69': 2}",35
+216,https://github.com/jbeder/yaml-cpp,"{'conan': 4, 'freebsd12': 23, 'vcpkg': 2, 'netbsd9': 0, 'openbsd69': 5}",34
+118,https://github.com/google/brotli,"{'conan': 3, 'vcpkg': 4, 'freebsd12': 23, 'netbsd9': 0, 'openbsd69': 4}",34
+140,https://github.com/google/double-conversion,"{'conan': 3, 'vcpkg': 7, 'freebsd12': 20, 'openbsd69': 4}",34
+290,https://github.com/ocaml/ocamlbuild,"{'freebsd12': 26, 'openbsd69': 8}",34
+299,https://github.com/lloyd/yajl,"{'freebsd12': 23, 'vcpkg': 0, 'openbsd69': 11}",34
+268,https://github.com/harfbuzz/harfbuzz,"{'vcpkg': 11, 'openbsd69': 22}",33
+236,https://github.com/boostorg/build,"{'vcpkg': 31, 'freebsd12': 1}",32
+211,https://github.com/KhronosGroup/Vulkan-Loader,"{'conan': 1, 'freebsd12': 28, 'openbsd69': 3}",32
+82,https://github.com/fmtlib/fmt,"{'conan': 14, 'npm': 0, 'vcpkg': 15, 'openbsd69': 3}",32
+129,https://github.com/coin-or/CoinUtils,"{'conan': 4, 'freebsd12': 24}",28
+37,https://github.com/hunspell/hunspell/archive/v1.7.0.tar.gz,"{'chromebrew': 26, 'homebrew': 2}",28
+265,https://github.com/frankosterfeld/qtkeychain,"{'vcpkg': 0, 'freebsd12': 21, 'openbsd69': 6}",27
+192,https://github.com/leethomason/tinyxml2,"{'conan': 4, 'vcpkg': 11, 'freebsd12': 11, 'openbsd69': 1}",27
+229,https://github.com/ruby-gnome/pkg-config,"{'rubygems': 25, 'netbsd9': 2}",27
+184,https://github.com/gabime/spdlog,"{'conan': 4, 'freebsd12': 18, 'vcpkg': 4, 'netbsd9': 0}",26
+100,https://github.com/abseil/abseil-cpp,"{'conan': 5, 'freebsd12': 17, 'vcpkg': 4, 'netbsd9': 0}",26
+300,https://github.com/sass/sassc,"{'vcpkg': 1, 'freebsd12': 21, 'openbsd69': 4}",26
+246,https://github.com/FluidSynth/fluidsynth,"{'vcpkg': 1, 'freebsd12': 25}",26
+208,https://github.com/google/re2,"{'conan': 2, 'vcpkg': 3, 'freebsd12': 19, 'netbsd9': 0}",24
+76,https://github.com/zeux/meshoptimizer,"{'conan': 1, 'npm': 23, 'vcpkg': 0}",24
+128,https://github.com/coin-or/Osi,"{'conan': 3, 'freebsd12': 21}",24
+287,https://github.com/ocaml/camlp4,"{'freebsd12': 22, 'openbsd69': 1}",23
+330,https://github.com/mpv-player/mpv,"{'freebsd12': 17, 'openbsd69': 5}",22
+343,https://github.com/vim/vim,"{'freebsd12': 17, 'openbsd69': 4}",21
+92,https://github.com/KhronosGroup/glslang,"{'conan': 3, 'vcpkg': 1, 'freebsd12': 13, 'openbsd69': 3}",20
+7,https://github.com/tildeio/helix,"{'cargo': 2, 'rubygems': 18}",20
+85,https://github.com/fribidi/fribidi,"{'conan': 2, 'netbsd9': 1, 'openbsd69': 17}",20
+111,https://github.com/awslabs/aws-c-io,"{'conan': 7, 'freebsd12': 8, 'vcpkg': 5}",20
+337,https://github.com/ConsoleKit2/ConsoleKit2,"{'freebsd12': 14, 'openbsd69': 6, 'netbsd9': 0}",20
+256,https://github.com/ARMmbed/mbedtls,"{'vcpkg': 2, 'freebsd12': 14, 'openbsd69': 4}",20
+264,https://github.com/protobuf-c/protobuf-c,"{'vcpkg': 1, 'freebsd12': 18, 'netbsd9': 0}",19
+308,https://github.com/Pulse-Eight/platform,"{'freebsd12': 18, 'netbsd9': 1}",19
+127,https://github.com/coin-or/Cgl,"{'conan': 1, 'vcpkg': 0, 'freebsd12': 18}",19
+338,https://github.com/ibus/ibus,"{'freebsd12': 16, 'openbsd69': 2}",18
+171,https://github.com/oatpp/oatpp,"{'conan': 6, 'vcpkg': 12}",18
+45,https://github.com/Yomguithereal/clj-fuzzy,"{'clojars': 11, 'npm': 7}",18
+105,https://github.com/awslabs/aws-c-cal,"{'conan': 4, 'vcpkg': 5, 'freebsd12': 9}",18
+188,https://github.com/nothings/stb,"{'conan': 4, 'vcpkg': 9, 'freebsd12': 5}",18
+8,https://github.com/aws/s2n-tls,"{'cargo': 3, 'conan': 1, 'vcpkg': 5, 'freebsd12': 9}",18
+67,https://github.com/libusb/libusb,"{'conan': 9, 'vcpkg': 9}",18
+44,https://github.com/google/brotli/archive/v1.0.9.tar.gz,"{'chromebrew': 8, 'homebrew': 10}",18
+59,https://git.kernel.org/pub/scm/libs/libcap/libcap.git,"{'chromebrew': 14, 'conan': 3}",17
+307,https://github.com/testing-cabal/mock,"{'freebsd12': 16, 'netbsd9': 1}",17
+165,https://github.com/msgpack/msgpack-c,"{'conan': 2, 'vcpkg': 2, 'freebsd12': 10, 'openbsd69': 3}",17
+289,https://github.com/ocaml/dune,"{'freebsd12': 7, 'openbsd69': 10}",17
+20,https://github.com/ImageOptim/libimagequant,"{'cargo': 10, 'freebsd12': 6, 'openbsd69': 1}",17
+102,https://github.com/P-H-C/phc-winner-argon2,"{'conan': 0, 'freebsd12': 14, 'openbsd69': 2}",16
+26,https://github.com/nayuki/QR-Code-generator,"{'cargo': 12, 'conan': 0, 'vcpkg': 0, 'freebsd12': 4, 'netbsd9': 0}",16
+347,https://github.com/garrigue/lablgtk,"{'freebsd12': 10, 'netbsd9': 0, 'openbsd69': 6}",16
+170,https://github.com/stevengj/nlopt,"{'conan': 0, 'vcpkg': 1, 'freebsd12': 14, 'openbsd69': 0}",15
+329,https://github.com/jbeich/aom,"{'freebsd12': 10, 'openbsd69': 5}",15
+60,https://github.com/P-H-C/phc-winner-argon2/archive/20190702.tar.gz,"{'chromebrew': 8, 'homebrew': 7}",15
+110,https://github.com/awslabs/aws-c-http,"{'conan': 5, 'freebsd12': 6, 'vcpkg': 4}",15
+93,https://github.com/grpc/grpc,"{'conan': 2, 'vcpkg': 3, 'freebsd12': 10}",15
+325,https://github.com/AcademySoftwareFoundation/OpenColorIO,"{'freebsd12': 12, 'openbsd69': 3}",15
+215,https://github.com/Cyan4973/xxHash,"{'conan': 2, 'freebsd12': 10, 'vcpkg': 0, 'openbsd69': 2, 'netbsd9': 1}",15
+83,https://github.com/facebook/folly,"{'conan': 0, 'vcpkg': 6, 'freebsd12': 9}",15
+317,https://github.com/ocaml/num,"{'freebsd12': 10, 'openbsd69': 4}",14
+335,https://github.com/scop/bash-completion,"{'freebsd12': 9, 'netbsd9': 0, 'openbsd69': 5}",14
+197,https://github.com/nemtrif/utfcpp,"{'conan': 2, 'freebsd12': 7, 'vcpkg': 3, 'netbsd9': 2}",14
+98,https://github.com/nodejs/http-parser,"{'conan': 3, 'vcpkg': 2, 'freebsd12': 8, 'netbsd9': 0, 'openbsd69': 1}",14
+158,https://github.com/libevent/libevent,"{'conan': 5, 'vcpkg': 9}",14
+48,https://github.com/eligrey/FileSaver.js,"{'clojars': 3, 'npm': 11}",14
+49,https://github.com/krisk/Fuse,"{'clojars': 1, 'npm': 13}",14
+237,https://github.com/aquynh/capstone,"{'vcpkg': 2, 'freebsd12': 11}",13
+131,https://github.com/zeromq/cppzmq,"{'conan': 1, 'vcpkg': 5, 'freebsd12': 6, 'openbsd69': 1}",13
+261,https://github.com/OpenImageIO/oiio,"{'vcpkg': 2, 'freebsd12': 10, 'openbsd69': 1}",13
+161,https://github.com/strukturag/libheif,"{'conan': 2, 'freebsd12': 11}",13
+297,https://github.com/troydhanson/uthash,"{'freebsd12': 11, 'openbsd69': 2}",13
+203,https://github.com/stachenov/quazip,"{'conan': 0, 'freebsd12': 8, 'openbsd69': 5}",13
+253,https://github.com/keplerproject/luafilesystem,"{'vcpkg': 1, 'freebsd12': 6, 'openbsd69': 6}",13
+350,https://github.com/giampaolo/psutil,"{'openbsd69': 12, 'netbsd9': 1}",13
+64,https://github.com/shaunlebron/parinfer,"{'clojars': 9, 'npm': 4}",13
+63,https://github.com/andrewplummer/Sugar,"{'clojars': 1, 'npm': 12}",13
+218,https://github.com/zeromq/libzmq,"{'conan': 5, 'vcpkg': 7}",12
+103,https://github.com/assimp/assimp,"{'conan': 1, 'vcpkg': 3, 'freebsd12': 6, 'openbsd69': 2}",12
+97,https://github.com/redis/hiredis,"{'conan': 2, 'vcpkg': 1, 'freebsd12': 6, 'netbsd9': 0, 'openbsd69': 3}",12
+12,https://github.com/tamasfe/taplo,"{'cargo': 9, 'npm': 3}",12
+71,https://github.com/nih-at/libzip,"{'conan': 2, 'vcpkg': 9}",11
+213,https://github.com/xtensor-stack/xtensor,"{'conan': 1, 'vcpkg': 4, 'freebsd12': 6}",11
+266,https://github.com/nigels-com/glew,"{'vcpkg': 10, 'netbsd9': 1}",11
+17,https://github.com/danielpclark/rutie,"{'cargo': 1, 'rubygems': 10}",11
+107,https://github.com/awslabs/aws-c-compression,"{'conan': 1, 'freebsd12': 7, 'vcpkg': 3}",11
+263,https://github.com/openscenegraph/OpenSceneGraph,"{'vcpkg': 2, 'freebsd12': 7, 'openbsd69': 2}",11
+344,https://github.com/astrand/xclip,"{'freebsd12': 6, 'netbsd9': 0, 'openbsd69': 5}",11
+244,https://github.com/facebookincubator/fizz,"{'vcpkg': 4, 'freebsd12': 6}",10
+240,https://github.com/commonmark/cmark,"{'vcpkg': 0, 'freebsd12': 9, 'netbsd9': 0, 'openbsd69': 1}",10
+117,https://github.com/google/benchmark,"{'conan': 0, 'freebsd12': 8, 'vcpkg': 1, 'netbsd9': 1}",10
+29,https://github.com/libnet/libnet/releases/download/v1.2/libnet-1.2.tar.gz,"{'chromebrew': 1, 'homebrew': 9}",10
+214,https://github.com/xtensor-stack/xtl,"{'conan': 2, 'freebsd12': 3, 'vcpkg': 5}",10
+212,https://github.com/zaphoyd/websocketpp,"{'conan': 3, 'freebsd12': 5, 'vcpkg': 2}",10
+311,https://github.com/TokTok/c-toxcore,"{'freebsd12': 8, 'openbsd69': 2}",10
+150,https://github.com/google/leveldb,"{'conan': 0, 'vcpkg': 1, 'freebsd12': 9, 'netbsd9': 0, 'openbsd69': 0}",10
+123,https://github.com/USCiLab/cereal,"{'conan': 2, 'vcpkg': 2, 'freebsd12': 5}",9
+90,https://github.com/glfw/glfw,"{'conan': 3, 'vcpkg': 6}",9
+245,https://github.com/mariusmuja/flann,"{'vcpkg': 3, 'freebsd12': 6}",9
+139,https://github.com/tronkko/dirent,"{'conan': 2, 'vcpkg': 7}",9
+109,https://github.com/awslabs/aws-checksums,"{'conan': 3, 'freebsd12': 4, 'vcpkg': 2}",9
+143,https://github.com/ocornut/imgui,"{'conan': 4, 'vcpkg': 5}",9
+238,https://github.com/ceres-solver/ceres-solver,"{'vcpkg': 6, 'freebsd12': 3}",9
+219,https://github.com/gdraheim/zziplib,"{'conan': 0, 'freebsd12': 8, 'vcpkg': 1, 'netbsd9': 0}",9
+34,https://github.com/libcheck/check/releases/download/0.15.2/check-0.15.2.tar.gz,"{'chromebrew': 2, 'homebrew': 7}",9
+95,https://github.com/google/gumbo-parser,"{'conan': 0, 'vcpkg': 1, 'freebsd12': 6, 'openbsd69': 2}",9
+122,https://github.com/Blosc/c-blosc,"{'conan': 1, 'vcpkg': 1, 'freebsd12': 5, 'openbsd69': 2}",9
+155,https://github.com/danfis/libccd,"{'conan': 1, 'vcpkg': 4, 'freebsd12': 4}",9
+121,https://github.com/catchorg/Catch2,"{'conan': 1, 'vcpkg': 3, 'freebsd12': 4, 'openbsd69': 1}",9
+217,https://github.com/Z3Prover/z3,"{'conan': 1, 'vcpkg': 1, 'freebsd12': 7, 'openbsd69': 0}",9
+164,https://github.com/edenhill/librdkafka,"{'conan': 1, 'vcpkg': 1, 'freebsd12': 6, 'netbsd9': 0}",8
+104,https://github.com/awslabs/aws-c-auth,"{'conan': 2, 'vcpkg': 2, 'freebsd12': 4}",8
+32,https://code.videolan.org/videolan/x264.git,"{'chromebrew': 2, 'homebrew': 6}",8
+119,https://github.com/bulletphysics/bullet3,"{'conan': 1, 'vcpkg': 1, 'freebsd12': 3, 'openbsd69': 3}",8
+160,https://github.com/OSGeo/libgeotiff,"{'conan': 4, 'vcpkg': 4, 'netbsd9': 0}",8
+36,https://github.com/maxmind/geoip-api-c/releases/download/v1.6.12/GeoIP-1.6.12.tar.gz,"{'chromebrew': 2, 'homebrew': 6}",8
+99,https://github.com/ifesdjeen/zweikopf,"{'clojars': 7, 'rubygems': 1}",8
+149,https://github.com/mm2/Little-CMS,"{'conan': 5, 'vcpkg': 3}",8
+156,https://github.com/ebiggers/libdeflate,"{'conan': 2, 'freebsd12': 6}",8
+206,https://github.com/ericniebler/range-v3,"{'conan': 1, 'vcpkg': 2, 'freebsd12': 5, 'netbsd9': 0}",8
+55,https://github.com/hakimel/Ladda,"{'clojars': 1, 'npm': 6}",7
+194,https://github.com/Tessil/robin-map,"{'conan': 1, 'vcpkg': 1, 'freebsd12': 3, 'netbsd9': 1, 'openbsd69': 1}",7
+232,https://github.com/zeroc-ice/ice,"{'rubygems': 4, 'freebsd12': 3}",7
+231,https://github.com/sass/libsass,"{'vcpkg': 1, 'freebsd12': 4, 'openbsd69': 2}",7
+346,https://github.com/MyGUI/mygui,"{'freebsd12': 6, 'openbsd69': 1}",7
+198,https://github.com/mapbox/protozero,"{'conan': 0, 'vcpkg': 2, 'freebsd12': 2, 'openbsd69': 3}",7
+0,https://github.com/unicorn-engine/unicorn,"{'cargo': 2, 'vcpkg': 0, 'freebsd12': 5}",7
+21,https://github.com/identity-com/sol-did,"{'cargo': 1, 'npm': 6}",7
+202,https://github.com/imageworks/pystring,"{'conan': 1, 'vcpkg': 1, 'freebsd12': 5}",7
+271,https://github.com/libharu/libharu,"{'vcpkg': 2, 'freebsd12': 5, 'openbsd69': 0}",7
+282,https://github.com/KhronosGroup/SPIRV-Tools,"{'freebsd12': 5, 'vcpkg': 1, 'openbsd69': 1}",7
+30,https://github.com/lloyd/yajl/archive/2.1.0.tar.gz,"{'chromebrew': 3, 'homebrew': 4}",7
+24,https://github.com/near/sandbox,"{'cargo': 3, 'npm': 4}",7
+292,https://github.com/simd-everywhere/simde,"{'freebsd12': 6, 'vcpkg': 1, 'netbsd9': 0}",7
+88,https://github.com/Maratyszcza/FXdiv,"{'conan': 1, 'vcpkg': 4, 'freebsd12': 1}",6
+233,https://github.com/puppetlabs/leatherman,"{'freebsd12': 4, 'openbsd69': 2}",6
+133,https://github.com/pytorch/cpuinfo,"{'conan': 2, 'vcpkg': 4}",6
+273,https://github.com/berkeley-abc/abc,"{'freebsd12': 5, 'openbsd69': 1}",6
+115,https://github.com/awslabs/aws-c-sdkutils,"{'conan': 1, 'freebsd12': 5}",6
+302,https://github.com/htacg/tidy-html5,"{'vcpkg': 0, 'freebsd12': 5, 'openbsd69': 1}",6
+166,https://github.com/microsoft/GSL,"{'conan': 4, 'freebsd12': 2}",6
+286,https://github.com/mono/msbuild,"{'freebsd12': 5, 'openbsd69': 1}",6
+303,https://github.com/ros/urdfdom,"{'vcpkg': 4, 'freebsd12': 2}",6
+152,https://github.com/AOMediaCodec/libavif,"{'conan': 1, 'vcpkg': 1, 'freebsd12': 3, 'openbsd69': 1}",6
+276,https://github.com/Yeraze/ytnef,"{'freebsd12': 4, 'netbsd9': 0, 'openbsd69': 2}",6
+305,https://github.com/facebook/wangle,"{'vcpkg': 2, 'freebsd12': 4}",6
+125,https://github.com/DaveGamble/cJSON,"{'conan': 0, 'freebsd12': 5, 'vcpkg': 1, 'netbsd9': 0}",6
+270,https://github.com/jiixyj/libebur128,"{'vcpkg': 0, 'freebsd12': 5, 'netbsd9': 0, 'openbsd69': 1}",6
+42,https://github.com/mfikes/andare,"{'clojars': 5, 'npm': 1}",6
+108,https://github.com/awslabs/aws-c-event-stream,"{'conan': 2, 'freebsd12': 3, 'vcpkg': 1}",6
+10,https://github.com/alacritty/alacritty,"{'cargo': 5, 'freebsd12': 1, 'netbsd9': 0}",6
+339,https://github.com/snowballstem/snowball,"{'freebsd12': 4, 'netbsd9': 0, 'openbsd69': 2}",6
+186,https://github.com/KhronosGroup/SPIRV-Headers,"{'conan': 1, 'vcpkg': 2, 'netbsd9': 1, 'openbsd69': 2}",6
+293,https://github.com/sparsehash/sparsehash,"{'freebsd12': 3, 'vcpkg': 0, 'openbsd69': 3}",6
+27,https://github.com/anyascii/anyascii,"{'cargo': 4, 'rubygems': 1}",5
+341,https://github.com/uwabami/rdtool,"{'freebsd12': 2, 'netbsd9': 3}",5
+258,https://github.com/beltoforion/muparser,"{'vcpkg': 0, 'freebsd12': 4, 'openbsd69': 1}",5
+298,https://github.com/google/woff2,"{'freebsd12': 4, 'openbsd69': 1}",5
+255,https://github.com/diegonehab/luasocket,"{'vcpkg': 1, 'openbsd69': 4}",5
+277,https://github.com/YosysHQ/yosys,"{'freebsd12': 4, 'openbsd69': 1}",5
+275,https://github.com/wkhtmltopdf/wkhtmltopdf,"{'freebsd12': 4, 'openbsd69': 1}",5
+84,https://github.com/Maratyszcza/FP16,"{'conan': 2, 'vcpkg': 3, 'freebsd12': 0}",5
+243,https://github.com/dmlc/dmlc-core,"{'vcpkg': 1, 'freebsd12': 4}",5
+43,https://github.com/ndevilla/iniparser/archive/v4.1.tar.gz,"{'chromebrew': 3, 'homebrew': 2}",5
+70,https://github.com/warmcat/libwebsockets,"{'conan': 1, 'vcpkg': 2, 'openbsd69': 2}",5
+262,https://github.com/PixarAnimationStudios/OpenSubdiv,"{'vcpkg': 0, 'freebsd12': 4, 'openbsd69': 1}",5
+75,https://github.com/mapbox/geometry.hpp,"{'conan': 1, 'vcpkg': 4}",5
+132,https://github.com/google/cpu_features,"{'conan': 0, 'vcpkg': 1, 'freebsd12': 4}",5
+241,https://github.com/coin3d/coin,"{'vcpkg': 1, 'freebsd12': 4}",5
+134,https://github.com/google/crc32c,"{'conan': 2, 'vcpkg': 0, 'freebsd12': 3}",5
+137,https://github.com/HowardHinnant/date,"{'conan': 1, 'vcpkg': 3, 'freebsd12': 1}",5
+112,https://github.com/awslabs/aws-c-mqtt,"{'conan': 1, 'freebsd12': 3, 'vcpkg': 1}",5
+199,https://github.com/Maratyszcza/psimd,"{'conan': 1, 'vcpkg': 3, 'freebsd12': 1}",5
+144,https://github.com/json-c/json-c,"{'conan': 1, 'vcpkg': 4}",5
+114,https://github.com/awslabs/aws-c-s3,"{'conan': 1, 'freebsd12': 3, 'vcpkg': 1}",5
+196,https://github.com/uNetworking/uSockets,"{'conan': 1, 'vcpkg': 1, 'freebsd12': 1, 'openbsd69': 2}",5
+120,https://github.com/biojppm/c4core,"{'conan': 1, 'vcpkg': 1, 'freebsd12': 2}",4
+191,https://github.com/apache/thrift,"{'conan': 1, 'vcpkg': 3}",4
+190,https://github.com/xiph/theora,"{'conan': 1, 'vcpkg': 3}",4
+40,https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.36.1.tar.xz,"{'chromebrew': 1, 'homebrew': 3}",4
+39,https://github.com/sass/libsass.git,"{'chromebrew': 3, 'homebrew': 1}",4
+113,https://github.com/awslabs/aws-crt-cpp,"{'conan': 1, 'freebsd12': 2, 'vcpkg': 1}",4
+38,https://github.com/knik0/faac/archive/refs/tags/1_30.tar.gz,"{'chromebrew': 1, 'homebrew': 3}",4
+172,https://github.com/OctoMap/octomap,"{'conan': 1, 'freebsd12': 3}",4
+296,https://github.com/neovim/unibilium,"{'freebsd12': 2, 'netbsd9': 0, 'openbsd69': 2}",4
+294,https://github.com/KhronosGroup/SPIRV-LLVM-Translator,"{'freebsd12': 3, 'netbsd9': 1}",4
+23,https://github.com/Dav1dde/glad,"{'cargo': 1, 'conan': 0, 'vcpkg': 3, 'freebsd12': 0, 'netbsd9': 0}",4
+318,https://github.com/ocaml/Zarith,"{'freebsd12': 3, 'netbsd9': 0, 'openbsd69': 1}",4
+320,https://github.com/LWJGL/lwjgl,"{'freebsd12': 3, 'openbsd69': 1}",4
+322,https://github.com/ksnip/kColorPicker,"{'freebsd12': 2, 'openbsd69': 2}",4
+332,https://github.com/traviscross/mtr,"{'freebsd12': 3, 'openbsd69': 1}",4
+130,https://github.com/Microsoft/cpprestsdk,"{'conan': 2, 'vcpkg': 2, 'freebsd12': 0}",4
+138,https://github.com/beached/header_libraries,"{'conan': 2, 'vcpkg': 2}",4
+342,https://github.com/neovim/neovim,"{'freebsd12': 3, 'openbsd69': 1}",4
+6,https://github.com/cronos-so/cronos,"{'cargo': 3, 'npm': 1}",4
+193,https://github.com/ToruNiina/toml11,"{'conan': 1, 'freebsd12': 3, 'vcpkg': 0}",4
+81,https://github.com/flexible-collision-library/fcl,"{'conan': 0, 'vcpkg': 2, 'freebsd12': 2}",4
+288,https://github.com/ocaml-community/cppo,"{'freebsd12': 1, 'openbsd69': 3}",4
+234,https://github.com/mongodb/libbson,"{'freebsd12': 2, 'vcpkg': 2}",4
+205,https://github.com/agauniyal/rang,"{'conan': 2, 'vcpkg': 0, 'freebsd12': 2}",4
+204,https://github.com/alanxz/rabbitmq-c,"{'conan': 0, 'vcpkg': 0, 'freebsd12': 3, 'netbsd9': 0, 'openbsd69': 1}",4
+101,https://github.com/alembic/alembic,"{'conan': 0, 'freebsd12': 3, 'openbsd69': 1}",4
+200,https://github.com/Maratyszcza/pthreadpool,"{'conan': 1, 'vcpkg': 3, 'freebsd12': 0}",4
+72,https://github.com/lvandeve/lodepng,"{'conan': 2, 'vcpkg': 2}",4
+242,https://github.com/ros/console_bridge,"{'vcpkg': 1, 'freebsd12': 3}",4
+74,https://github.com/Neargye/magic_enum,"{'conan': 3, 'vcpkg': 1}",4
+221,https://github.com/hopsoft/cable_ready,"{'npm': 1, 'rubygems': 3}",4
+331,https://github.com/signalapp/libsignal-protocol-c,"{'freebsd12': 1, 'openbsd69': 2}",3
+96,https://github.com/google/highway,"{'conan': 1, 'vcpkg': 1, 'freebsd12': 1}",3
+228,https://github.com/adafruit/Adafruit-GFX-Library,"{'npm': 2, 'openbsd69': 1}",3
+31,https://github.com/georgmartius/vid.stab/archive/v1.1.0.tar.gz,"{'chromebrew': 1, 'homebrew': 2}",3
+340,https://github.com/h2o/h2o,"{'freebsd12': 2, 'openbsd69': 1, 'netbsd9': 0}",3
+9,https://github.com/arrowprotocol/arrow,"{'cargo': 2, 'npm': 1}",3
+157,https://github.com/anholt/libepoxy,"{'conan': 1, 'vcpkg': 2, 'netbsd9': 0}",3
+301,https://github.com/tensorflow/tensorflow,"{'vcpkg': 2, 'freebsd12': 1}",3
+65,https://github.com/martinus/robin-hood-hashing,"{'conan': 2, 'vcpkg': 1}",3
+222,https://github.com/csound/csound,"{'npm': 1, 'freebsd12': 2}",3
+304,https://github.com/ros/urdfdom_headers,"{'vcpkg': 2, 'freebsd12': 1}",3
+87,https://github.com/Dobiasd/FunctionalPlus,"{'conan': 1, 'vcpkg': 1, 'freebsd12': 1}",3
+141,https://github.com/electronicarts/EABase,"{'conan': 1, 'vcpkg': 2}",3
+315,https://github.com/fujiwarat/cldr-emoji-annotation,"{'freebsd12': 1, 'netbsd9': 2}",3
+316,https://github.com/lutraconsulting/MDAL,"{'freebsd12': 2, 'openbsd69': 1}",3
+336,https://github.com/NanXiao/lscpu,"{'freebsd12': 2, 'openbsd69': 1}",3
+15,https://github.com/ahalabs/witme,"{'cargo': 2, 'npm': 1}",3
+323,https://github.com/ksnip/kImageAnnotator,"{'freebsd12': 2, 'openbsd69': 1}",3
+126,https://github.com/CLIUtils/CLI11,"{'conan': 1, 'vcpkg': 1, 'freebsd12': 1}",3
+19,https://github.com/PaddiM8/kalker/tree/master/kalk,"{'cargo': 2, 'npm': 1}",3
+328,https://github.com/wang-bin/QtAV,"{'freebsd12': 1, 'openbsd69': 2}",3
+116,https://github.com/aws/aws-sdk-cpp,"{'conan': 1, 'freebsd12': 2, 'vcpkg': 0}",3
+154,https://github.com/PJK/libcbor,"{'conan': 0, 'freebsd12': 2, 'vcpkg': 1, 'netbsd9': 0}",3
+285,https://github.com/mono/mono-addins,"{'freebsd12': 2, 'openbsd69': 1}",3
+280,https://github.com/v8/v8,"{'freebsd12': 2, 'openbsd69': 1}",3
+249,https://github.com/osmcode/libosmium,"{'freebsd12': 1, 'openbsd69': 2}",3
+182,https://github.com/Stiffstream/sobjectizer,"{'conan': 1, 'freebsd12': 1, 'vcpkg': 1}",3
+178,https://github.com/kazuho/picojson,"{'conan': 1, 'vcpkg': 1, 'freebsd12': 1}",3
+185,https://github.com/KhronosGroup/SPIRV-Cross,"{'conan': 2, 'vcpkg': 1}",3
+187,https://github.com/rbock/sqlpp11,"{'conan': 1, 'vcpkg': 2}",3
+250,https://github.com/encukou/py3c,"{'freebsd12': 1, 'netbsd9': 1, 'openbsd69': 1}",3
+278,https://github.com/puppetlabs/cpp-hocon,"{'freebsd12': 2, 'openbsd69': 1}",3
+248,https://github.com/gpsbabel/gpsbabel,"{'freebsd12': 2, 'openbsd69': 1}",3
+195,https://uriparser.github.io/,"{'conan': 1, 'vcpkg': 2, 'netbsd9': 0}",3
+284,https://github.com/s-yata/marisa-trie,"{'freebsd12': 1, 'netbsd9': 2}",3
+86,https://github.com/Naios/function2,"{'conan': 1, 'vcpkg': 1}",2
+189,https://github.com/taskflow/taskflow,"{'conan': 0, 'vcpkg': 1, 'freebsd12': 1}",2
+349,https://github.com/baskerville/sxhkd,"{'freebsd12': 1, 'netbsd9': 0, 'openbsd69': 1}",2
+324,https://github.com/haasn/libplacebo,"{'freebsd12': 1, 'openbsd69': 1}",2
+348,https://github.com/naelstrof/slop,"{'freebsd12': 1, 'openbsd69': 1, 'netbsd9': 0}",2
+326,https://github.com/dinhviethoa/libetpan,"{'freebsd12': 1, 'openbsd69': 1}",2
+2,https://github.com/chronos-so/chronos,"{'cargo': 1, 'npm': 1}",2
+183,https://github.com/ThePhD/sol2,"{'conan': 0, 'freebsd12': 1, 'vcpkg': 1}",2
+78,https://github.com/skypjack/entt,"{'conan': 1, 'vcpkg': 1, 'freebsd12': 0}",2
+16,https://github.com/Picovoice/rhino,"{'cargo': 1, 'npm': 1}",2
+220,https://github.com/dftd4/dftd4,"{'fpm': 1, 'freebsd12': 1}",2
+136,https://github.com/zeromq/czmq,"{'conan': 1, 'vcpkg': 1, 'freebsd12': 0}",2
+345,https://github.com/luceneplusplus/LucenePlusPlus,"{'freebsd12': 1, 'openbsd69': 1}",2
+334,https://github.com/technion/libscrypt,"{'freebsd12': 1, 'openbsd69': 1}",2
+57,https://github.com/fgnass/spin.js,"{'clojars': 1, 'npm': 1}",2
+61,https://github.com/erlang/otp,"{'clojars': 1, 'freebsd12': 1}",2
+321,https://github.com/fifengine/fifengine,"{'freebsd12': 1, 'openbsd69': 1}",2
+66,https://github.com/axboe/liburing,"{'conan': 1, 'vcpkg': 1}",2
+135,https://github.com/jarro2783/cxxopts,"{'conan': 0, 'vcpkg': 0, 'freebsd12': 1, 'netbsd9': 1}",2
+230,https://github.com/asmjit/asmjit,"{'freebsd12': 1, 'vcpkg': 1}",2
+257,https://github.com/mongodb/mongo-c-driver,"{'vcpkg': 1, 'freebsd12': 1, 'netbsd9': 0}",2
+68,https://github.com/libuvc/libuvc,"{'conan': 0, 'vcpkg': 1, 'freebsd12': 1}",2
+319,https://github.com/EasyRPG/liblcf,"{'freebsd12': 1, 'openbsd69': 1}",2
+247,https://github.com/twogood/unshield,"{'freebsd12': 1, 'netbsd9': 0, 'openbsd69': 1}",2
+176,https://github.com/xiph/opusfile,"{'conan': 1, 'vcpkg': 1}",2
+168,https://github.com/jlblancoc/nanoflann,"{'conan': 1, 'vcpkg': 0, 'freebsd12': 1}",2
+167,https://github.com/Neargye/nameof,"{'conan': 1, 'vcpkg': 1}",2
+291,https://github.com/intel/opencl-clang,"{'freebsd12': 1, 'netbsd9': 1}",2
+163,https://github.com/jtv/libpqxx,"{'conan': 0, 'freebsd12': 1, 'openbsd69': 1}",2
+207,https://github.com/biojppm/rapidyaml,"{'conan': 1, 'vcpkg': 0, 'freebsd12': 1}",2
+295,https://github.com/zrax/string_theory,"{'freebsd12': 1, 'vcpkg': 1}",2
+239,https://github.com/dtschump/CImg,"{'vcpkg': 1, 'freebsd12': 1}",2
+283,https://github.com/pavouk/lgi,"{'freebsd12': 1, 'netbsd9': 0, 'openbsd69': 1}",2
+162,https://github.com/google/libnop,"{'conan': 1, 'vcpkg': 1}",2
+159,https://github.com/libfuse/libfuse,"{'conan': 1, 'netbsd9': 1}",2
+279,https://github.com/fifengine/fifechan,"{'freebsd12': 1, 'openbsd69': 1}",2
+153,https://github.com/ianlancetaylor/libbacktrace,"{'conan': 1, 'freebsd12': 1, 'vcpkg': 0}",2
+148,https://github.com/kuba--/zip,"{'conan': 1, 'vcpkg': 1}",2
+80,https://github.com/eProsima/Fast-CDR,"{'conan': 1, 'vcpkg': 1}",2
+28,https://github.com/badboy/mdbook-mermaid,"{'cargo': 1, 'freebsd12': 1}",2
+147,https://github.com/kainjow/Mustache,"{'conan': 1, 'freebsd12': 1}",2
+124,https://github.com/civetweb/civetweb,"{'conan': 1, 'vcpkg': 0, 'freebsd12': 1}",2
+177,https://github.com/eclipse/paho.mqtt.c,"{'conan': 1, 'vcpkg': 1}",2
+310,https://github.com/boothj5/libmesode,"{'freebsd12': 1, 'netbsd9': 0, 'openbsd69': 1}",2
+274,https://github.com/rubund/graywolf,"{'freebsd12': 1, 'openbsd69': 1}",2
+312,https://github.com/bgp/bgpq4,"{'freebsd12': 1, 'openbsd69': 1}",2
+313,https://github.com/5u623l20/flow-tools,"{'freebsd12': 1, 'openbsd69': 1}",2
+314,https://github.com/phaag/nfdump,"{'freebsd12': 1, 'openbsd69': 1}",2
+272,https://github.com/hoene/libmysofa,"{'freebsd12': 1, 'netbsd9': 0, 'openbsd69': 1}",2
+22,https://github.com/Picovoice/porcupine,"{'cargo': 1, 'npm': 1}",2
+179,https://github.com/greenm01/poly2tri,"{'conan': 1, 'vcpkg': 1}",2
+254,https://github.com/brunoos/luasec,"{'vcpkg': 0, 'freebsd12': 1, 'openbsd69': 1}",2
