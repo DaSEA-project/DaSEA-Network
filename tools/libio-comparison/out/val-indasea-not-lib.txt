@@ -1,0 +1,22 @@
+Manual query search on "https://nimble.directory/search?query=nyml"
+X = Not there, Y = is there
+flickr_image_bot Y
+logue Y
+netbuff Y
+paramidib Y
+distributions Y
+rx_nim Y
+hsluv Y
+mnemonic Y
+macroutils Y
+antlr4nim Y
+paravim Y
+w8crc Y
+soundex Y
+prologue Y
+uncomment Y
+nimvisa Y
+syndicate Y
+encode Y
+brainlyextractor Y
+nyml Y
