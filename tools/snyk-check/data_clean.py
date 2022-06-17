@@ -25,10 +25,7 @@ bad_urls =[
     "http://example.com/",
 ]
 
-# print(data[0])
 
 output_json = [x for x in data if x['url'] not in bad_urls]
 
 json.dump(output_json, open("tools/snyk-check/order_by_pckg_managers_clean.json", "w"), indent=4)
-
-# print(output_json)
