@@ -4,8 +4,31 @@ import logging
 
 logging.basicConfig(filename='./example.log', encoding='utf-8', level=logging.DEBUG)
 
-def unfussy_reader(csv_reader):
-    yield next(csv_reader)
+bad_urls =[
+    "https://github.com//",
+    "http://github.com",
+    "https://github.com",
+    "https://github.com/",
+    "http://example.com",
+    "http://github.com/",
+    "http://www.google.com",
+    "https://example.com",
+    "https://",
+    "http://google.com",
+    "https://google.com",
+    "http://www.github.com",
+    "http://www.example.com",
+    "https://www.google.com",
+    "...",
+    "https://gitlab.com/",
+    "https://www.github.com",
+    "http://example.com/",
+]
+
+def clean_url(url):
+    if url in bad_urls:
+        return ""
+    return url
 
 def main(fnames):
     csv_writer = csv.writer(sys.stdout)
@@ -36,9 +59,9 @@ def main(fnames):
                     raise e
                 url = ""
                 if repo:
-                    url = repo
+                    url = clean_url(repo)
                 elif homepage:
-                    url = homepage
+                    url = clean_url(homepage)
                 csv_writer.writerow(
                     (
                         f'version'+idx+pkgman.lower(),
