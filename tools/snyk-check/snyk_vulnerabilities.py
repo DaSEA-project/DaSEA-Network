@@ -22,37 +22,27 @@ def _check_pkg_vulnerabilities_snyk(pkg_name):
   # Get vulnerabilities
   url = SNYK_REGISTRY.format(pkg_name=pkg_name)
   r = requests.get(url, headers=HEADERS)
-  print(r.status_code)
   if r.status_code == 200:
     data = r.json()['vulnerabilities']
     print(data)
-    return data
 
-def _check_pkg_vulnerabilities_nvd(pkg_name):
-  # Get vulnerabilities
-  url = SNYK_REGISTRY.format(pkg_name=pkg_name)
-  r = requests.get(url, headers=HEADERS)
-  print(r.status_code)
-  if r.status_code == 200:
-    data = r.json()['vulnerabilities']
-    print(data)
-    return data
+    # return data
 
 
 def main():
   cross_ecosystem_packages = []
-  # reading CSV file
-  # data = read_csv("neo-data/order_by_pckg_managers.csv")
 
   # Opening JSON file
-  with open('neo-data/order_by_pckg_managers.json', encoding='utf-8-sig') as json_file:
+  with open('./order_by_pckg_managers_clean.json', encoding='utf-8-sig') as json_file:
       data = json.load(json_file)
+      # for i in range(len(data)):
+      #   cross_ecosystem_packages = cross_ecosystem_packages + data[i]['names']
       for i in range(len(data)):
-        if i == 25:
+        if i == 2:
           break
         cross_ecosystem_packages.append(data[i])
 
-  # print(cross_ecosystem_packages)
+  print(cross_ecosystem_packages)
   # with open('neo-data/order_by_pckg_managers.json', encoding='utf-8-sig') as json_file:
   #     data = json.load(json_file)
   #     for i in range(len(data)):
@@ -66,19 +56,18 @@ def main():
   print('Packages:', len(cross_ecosystem_packages))
   for package in cross_ecosystem_packages:
     packages_with_vulnerabilities = []
-    print(package)
+    # print(package)
     pkg_url = package['url']
     print('Package:', pkg_url)
     pkg_names_mapping = package['names']
-    print('Package exists as', pkg_names_mapping)
+    # print('Package exists as', pkg_names_mapping)
     for pkg in pkg_names_mapping:
       print('Vulnerabilities:')
       print('Package name:', pkg['name'])
       print('Package manager:', pkg['pkgman'])
-
-    package = PackageWithVulnerabilities(pkg['name'], _check_pkg_vulnerabilities_nvd(pkg['name']))
-    packages_with_vulnerabilities.append(package)
-    print('\n')
+      package = PackageWithVulnerabilities(pkg['name'], _check_pkg_vulnerabilities_snyk(pkg['name']))
+      packages_with_vulnerabilities.append(package)
+      print('\n')
 
 
 if __name__ == "__main__":
