@@ -1,0 +1,16 @@
+pkgman,has_cross_pkgs_in
+rubygems,"['cargo', 'clojars', 'conan', 'freebsd12', 'netbsd9', 'npm', 'vcpkg']"
+npm,"['cargo', 'clojars', 'conan', 'freebsd12', 'homebrew', 'luarocks', 'netbsd9', 'openbsd69', 'rubygems', 'vcpkg']"
+freebsd12,"['cargo', 'clojars', 'conan', 'fpm', 'luarocks', 'netbsd9', 'nimble', 'npm', 'openbsd69', 'rubygems', 'vcpkg']"
+netbsd9,"['cargo', 'conan', 'freebsd12', 'luarocks', 'npm', 'openbsd69', 'rubygems', 'vcpkg']"
+clojars,"['cargo', 'freebsd12', 'npm', 'openbsd69', 'rubygems']"
+vcpkg,"['alire', 'cargo', 'conan', 'freebsd12', 'netbsd9', 'npm', 'openbsd69', 'rubygems']"
+conan,"['alire', 'cargo', 'chromebrew', 'freebsd12', 'homebrew', 'netbsd9', 'npm', 'openbsd69', 'rubygems', 'vcpkg']"
+openbsd69,"['cargo', 'clojars', 'conan', 'freebsd12', 'netbsd9', 'npm', 'vcpkg']"
+cargo,"['clojars', 'conan', 'freebsd12', 'netbsd9', 'npm', 'openbsd69', 'rubygems', 'vcpkg']"
+chromebrew,"['conan', 'homebrew']"
+homebrew,"['chromebrew', 'conan', 'npm']"
+luarocks,"['freebsd12', 'netbsd9', 'npm']"
+alire,"['conan', 'vcpkg']"
+fpm,['freebsd12']
+nimble,['freebsd12']
