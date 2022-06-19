@@ -6,7 +6,7 @@ cyclic-polynomial-hash X
 nim-stringinterpolation X
 libspdk X
 nimcalcal X
-clblas X (One is named clblast)
+clblas X
 monad X
 netpipe X
 fractions X
