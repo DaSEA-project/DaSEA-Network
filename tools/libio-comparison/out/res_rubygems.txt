@@ -1,0 +1,57 @@
+Rubygems
+Packages in libraries.io that are not in DaSEA
+Total = 7203/161.608
+Sample:
+coralogix X
+adsb-cli X
+aprilfool Y
+opengdsn X
+jaytest3 X
+biblio_bot X
+fluent-plugin-elasticsearch-patch X
+ext_ruby X
+runoid X
+api_controller_generator X
+hola_a1432km X
+aten X
+iperfrb Y
+jetstream X
+jekyll-jet X
+lannister_data Y
+get_chute X
+elasticsearch-persistence-master X
+fastlane-plugin-dynatrace_symbolication X
+colores X
+
+
+
+
+
+Packages in DaSEA that are not in libraries.io
+Total = 15344/169.624
+Sample:
+google-cloud-web_risk-v1 Y
+neverball-scorer-ruby Y
+contentful_lite Y
+async-bus Y
+capistrano3-ssh Y
+deckcrystel Y
+eol-cartograph Y
+hiredis-client Y
+google-apis-verifiedaccess_v1 Y
+demo_gem_making Y
+rails_charts Y
+embulk-input-stripe Y
+block_repeater Y
+banktools-global Y
+tetris_pavliad1 Y
+asciidoctor-reducer Y
+google-cloud-os_config-v1alpha Y
+csvcop Y
+plex_symlinker Y
+semtools Y
+
+
+
+
+Manuel queries from https://rubygems.org/

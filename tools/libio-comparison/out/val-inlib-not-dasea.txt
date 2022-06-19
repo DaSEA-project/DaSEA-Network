@@ -1,0 +1,22 @@
+Manual query search on "https://nimble.directory/search?query=nyml"
+X = Not there, Y = is there
+vardene X
+easy-bcrypt X
+cyclic-polynomial-hash X
+nim-stringinterpolation X
+libspdk X
+nimcalcal X
+clblas X (One is named clblast)
+monad X
+netpipe X
+fractions X
+libtcod-nim X
+nim-nanomsg X
+smtp X
+mpint X
+nim-portaudio X
+monero X
+nimlog X
+minim X
+nimyaml X
+nim-vorbis X

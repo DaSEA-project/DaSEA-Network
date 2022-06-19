@@ -1,0 +1,81 @@
+In the thesis we write motivations for the addition of miners but when should you use DaSEA dataset
+New additions, natural incentive to use DaSEA dataset.
+Amazon Turk
+
+Show all the ecosystems we updated with DaSEa and how many more packages
+Looked closer at Nimble, Cargo and Clojars (sample data)
+
+Nimble:
+Libraries = 1.200 packages (website says 1.9K)
+DaSEA = 1.876 packages, 734 new packages (packages not in Libraries io)
+100% compliance between packages (sample 20) in the registry in DaSEA not in Libraries io and vice versa.
+
+Cargo:
+Libraries: 35.635 packages (website says 86.9K)
+DaSEA: 83.452 packages, 48.791 new packages (in Paper we say 84.208 packages in cargo)
+100% compliance between packages (sample 20) in the registry in DaSEA not in Libraries io and vice versa.
+
+Clojars:
+Libraries: 24295 (website says 24.3K)
+DaSEA: 28996 packages, 4812 new packages
+100% compliance between packages (sample 20) in the registry in DaSEA not in Libraries io and vice versa.
+We see failed parsings in Clojars and packages that have incorrect prefix e.g. 
+Libraries io have facjure/datomic-tools , we have correct ones mysema/datomic-tools and org.clojars.akiel/datomic-tools
+
+We also see packages with no prefix e.g. jughead where we have org.clojars.minikomi/jughead which exists
+
+Finally, we see packages that are parsed incorrect e.g. /core.matrix.stats which we have as
+net.mikera/core.matrix.stats which is also correct (correct means that it exists in the registry)
+
+Rubygems:
+Libraries: 161.608 packages (website says 179K packages)
+DaSEA: 169.624 packages, 15344 new packages
+Datasource needs to be revised
+
+Homebrew
+Libraries: 4702 packages (website says 7.61K packages)
+DaSEA: 6070 packages, 2815 new packages
+100% compliance between packages (sample 20) in the registry in DaSEA not in Libraries io and vice versa.
+Many packages have changed name or old ones are Copies of an original package
+
+
+NPM:
+Libraries: 1.275.082 (website says 2.43M packages)
+DaSEA: 1.972.056, 826.113 new packages
+100% compliance between packages (sample 20) in the registry in DaSEA not in Libraries io and vice versa.
+
+When comparing dependencies:
+Target specific packages that exist in both DaSEA and Cargo
+Comparing the dependencies and checking who is "correct" manually
+    (We do this differently than packages, because if a package exists in both datasets yea then it probably exists.
+    Other information about a packages is a matter of parsing.)
+
+We look closer at Cargo and sample 20 packages that are in both DaSEA and Libraries on validate the dependencies for that package
+
+Manual check https://crates.io
+Setup: package: [source version constraint kind]=MATCH(Y OR X)
+
+Process:
+- Sample 1 package that both DaSEA and Libraries share (Only for package with dependencies)
+- Get all dependents, target+source version and kind
+- For each dependency we check the two most recent source_versions, we check if the dependencies specified is correct
+
+FINAL CONCLUSION:
+- 8x 100% match
+- 7x 100% match DaSEA detects new versions
+- 1x Libraries had no dependencies for that package, but DaSEA 100% match
+- 3x 100% match but Libraries sometimes specify the kind as runtime where DaSEA specify normal
+- 1x Libraries changes a runtime depency to normal for a new package version
+
+
+When comparing versions:
+Platform: Cargo
+Manual check: https://crates.io/
+Process:
+- Get list of shared packages
+- Get versions from both DaSEA and Libraries
+- Check which versions exist in the registry and which don't
+
+FULL CONCLUSION:
+- 16x 100% match
+- 4x 100% match but DaSEA has newer versions that do exist in the registry

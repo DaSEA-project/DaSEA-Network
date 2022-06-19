@@ -1,0 +1,56 @@
+Homebrew
+Packages in libraries.io that are not in DaSEA
+Total = 1447/4702
+Sample:
+dnscryptproxy X
+dfuprogrammer X (name change)
+gnushogi X (name change)
+ocamlsdl  X
+jpegat9 X
+sofiasip X (name change)
+getflashvideos X
+libqglviewer X
+pegmarkdown X (name change)
+ssreflect X
+titanserver X (name change)
+ucspitcp X (name change)
+eulerpy X (name change)
+dropboxuploader X (name change)
+hh X
+celt X
+rbenvwhatis X (name change)
+llvmat38 X
+arm X
+kubernetescliat13 X
+
+
+
+
+
+Packages in DaSEA that are not in libraries.io
+Total = 2815/6070
+Sample:
+phpstan Y
+fclones Y
+rakudo-star Y
+infrakit Y
+rbenv-gemset Y
+mruby-cli Y
+rizin Y
+cloudflared Y
+git-octopus Y
+xray Y
+open-adventure Y 
+echoprint-codegen Y
+devspace Y
+rake-completion Y
+bombadillo Y
+x86_64-elf-gdb Y
+gostatic Y
+util-macros Y
+h2c Y
+consul-backinator Y
+
+
+
+Manuel queries from https://brew.sh/index_da

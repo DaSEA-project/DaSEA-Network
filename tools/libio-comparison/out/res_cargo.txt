@@ -1,0 +1,53 @@
+Cargo
+Packages in libraries.io that are not in DaSEA
+Total = 975/35635 
+Sample:
+tam X
+planter X
+anthropology-rs X
+analogy X
+rhodoreae X
+unicode_width Y (Renamed to unicode-width)
+criterio X
+fill-rs X
+cub-rs X
+interpret X
+annotations X
+pinkie X
+tactic X
+gobject-2_0-sys X (Renamed to gobject-2-0-sys)
+architect-rs X
+represent-rs X
+yet-rs X
+angle-rs X (Renamed to just angle)
+tadpole X
+tepee X
+
+
+
+Packages in DaSEA that are not in libraries.io
+Total = 48791/83452 
+Sample:
+watchr Y
+dynasm-lib Y
+lrc Y
+source-location Y
+ndata Y
+machinery-api Y
+sh-builtin-bash-bindings Y
+sql-builder Y
+move-test Y
+ckb-sdk-types Y
+ra_ap_toolchain Y
+a- Y
+command-run Y
+idealist Y
+nu_plugin_to_bson Y
+brioche Y
+rank Y
+storyteller Y
+wasmer-engine-dylib Y
+sqlx-type-macro Y
+
+
+Manuel queries from https://crates.io/

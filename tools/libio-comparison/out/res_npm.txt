@@ -1,0 +1,50 @@
+Npm
+Packages in libraries.io that are not in DaSEA
+Total = 128.917/1.275.082
+Sample:
+data-logger X
+unslash X
+vue-multiselect-with-multilanguage X
+ev-ui-lib X
+egeria-reddit-client X
+case-dash X
+eslint-config-travisreynolds X
+cubx-cache-config-generator X
+react-semantic-datetime_demo X
+ntfx-netflix-18oo-7o4-8974-netflix-tech-support-number-netflix-customer-care-phone-number-netflix-technical-support-number-tech-help X
+private-instagram-viewer-no-survey X
+sems-demo X
+kununu-electrode-archetype-react-app-dev X
+use-is-ie11 Y (@kaliber/use-is-ie11)
+npmtest-babel-plugin-add-module-exports X
+papply X
+generator-react-sdp X
+angular-click-x
+cl-model-generator X
+phishtory X
+
+Packages in DaSEA that are not in libraries.io
+Total = 826.113/1.972.056
+Sample:
+@sikka/loah Y
+fmind-frame-ui Y
+@itentialopensource/adapter-artifactory Y
+print-name-by-bia Y
+@selfage/lazy_instance Y
+@xysfe/memento Y
+@noonnu/i-survive Y
+troi-library Y
+@neesh-studio/svelte-fsm Y
+@trivikr-test/client-ec2-instance-connect-esm Y
+@kth/basic-html-templates Y
+biyomod_demo1-node Y
+jm-sequence-mongoose Y
+sweet-modal-vue-3 Y
+@frank3en/tiny-lib Y
+npm-luismateo-npm Y
+@visi/core Y
+@favi_ty/rogue-tools Y
+@sap/cloud-sdk-op-vdm-bill-of-material-where-used-service Y
+node-skeleton Y
+
+Manuel queries from https://www.npmjs.com/

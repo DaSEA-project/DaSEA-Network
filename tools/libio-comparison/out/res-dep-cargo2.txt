@@ -1,0 +1,313 @@
+Platform: Cargo
+Manual check https://crates.io
+Setup: package: [source version constraint kind]=MATCH(Y OR X)
+
+Process:
+- Sample 1 package that both DaSEA and Libraries share (Only for package with dependencies)
+- Get all dependents, target+source version and kind
+- For each dependency we check the two most recent source_versions, we check if the dependencies specified is correct
+
+1. Package: flap
+Libraries:
+im: [v0.0.1 normal][v0.0.11 normal]=Y(NO KIND)
+
+DaSEA:
+im: [v0.0.1 ^13.0.0 NORMAL]=Y [v0.0.11 ^13.0.0 NORMAL]=Y [v0.0.2 ^13.0.0 NORMAL]=Y
+
+Conclusion:
+All correct but DaSEA has detected a new version v0.0.02 and gets that dependency correct aswell
+
+2. Package: blh
+Libraries:
+approx: [v0.3.0 runtime]=Y
+euclid: [v0.3.0 runtime]=Y
+
+DaSEA:
+approx: [v0.3.0 ^0.1.1 NORMAL]=Y
+euclid: [v0.3.0 ^0.10.2 NORMAL]=Y
+
+Conclusion:
+All match, but mismatch between dep kind with runtime
+
+3. Package: tc_parity_parity
+Libraries:
+log: [v0.5.1 normal]=Y [v0.5.0 normal]=Y
+tc_core: [v0.5.1 normal]=Y [v0.5.0 normal]=Y
+testcontainers: [v0.1.0 normal] =Y
+web3: [v0.5.1 dev]=Y [v0.5.0 dev]=Y
+
+DaSEA:
+log: [v0.5.1 ^0.4 NORMAL]=Y [v0.5.0 ^0.4 NORMAL] =Y
+tc_core: [v0.5.1 ^0.3 NORMAL]=Y [v0.5.0 ^0.3 NORMAL] =Y
+testcontainers: [v0.1.0 ^0.2.0 NORMAL] =Y
+web3: [v0.5.1 ^0.8 DEV]=Y [v0.5.0 ^0.6 DEV]=Y
+
+Conclusion:
+100% match
+
+4. Package: xvf
+Libraries:
+clap: [v0.1.1 normal]=Y [v0.1.0 normal]=Y
+lazy_static: [v0.1.1 normal]=Y [v0.1.0 normal]=Y
+libc: [v0.1.1 normal]=Y [v0.1.0 normal]=Y
+scmp: [v0.1.1 normal]=Y [v0.1.0 normal]=Y
+tempdir: [v0.1.1 normal]=Y [v0.1.0 normal]=Y
+
+DaSEA:
+clap: [v0.1.1 ^2 NORMAL]=Y [v0.1.0 ^2 NORMAL] =Y
+lazy_static: [v0.1.1 ^0.2 NORMAL]=Y [v0.1.0 ^0.2 NORMAL] =Y
+libc: [v0.1.1 ^0.2 NORMAL]=Y [v0.1.0 ^0.2 NORMAL] =Y
+scmp: [v0.1.1 ^0.1 NORMAL]=Y [v0.1.0 ^0.1 NORMAL] =Y
+tempdir: [v0.1.1 ^0.3 NORMAL]=Y [v0.1.0 ^0.3 NORMAL] =Y
+
+Conclusion:
+100% match
+
+5. Package: rebind
+Libraries:
+fnv: [v0.2.1 runtime]=Y [v0.1.1 runtime] =Y
+itertools: [v0.2.1 runtime]=Y[v0.1.1 runtime] =Y
+piston: [v0.2.1 dev]=Y [v0.1.1 dev] =Y
+piston-viewport: [v0.2.1 runtime]=Y [v0.1.1 runtime] =Y
+pistoncore-glutin_window: [v0.2.1 dev]=Y [v0.1.1 dev] =Y
+pistoncore-input: [v0.2.1 runtime]=Y [v0.1.1 runtime] =Y
+pistoncore-window: [v0.2.1 runtime]=Y [v0.1.1 runtime] =Y
+rustc-serialize: [v0.2.1 runtime]=Y [v0.1.1 runtime] =Y
+
+DaSEA:
+fnv: [v0.2.1 ^1.0.0 NORMAL]=Y [v0.1.1 ^1.0.0 NORMAL] =Y
+itertools: [v0.2.1 ^0.4 NORMAL]=Y [v0.1.1 ^0.4 NORMAL] =Y
+piston: [v0.2.1 ^0.16 DEV]=Y [v0.1.1 ^0.13 DEV] =Y
+piston-viewport: [v0.2.1 ^0.2 NORMAL]=Y [v0.1.1 ^0.2 NORMAL] =Y
+pistoncore-glutin_window: [v0.2.1 ^0.19 DEV]=Y [v0.1.1 ^0.16 DEV] =Y
+pistoncore-input: [v0.2.1 ^0.9 NORMAL]=Y [v0.1.1 ^0.8 NORMAL] =Y
+pistoncore-window: [v0.2.1 ^0.16 NORMAL]=Y [v0.1.1 ^0.14 NORMAL] =Y
+rustc-serialize: [v0.2.1 ^0.3 NORMAL]=Y [v0.1.1 ^0.3 NORMAL] =Y
+
+Conclusion:
+100% Match, but Libraries specifices some deps as runtieme
+
+6. Package: drone-nrf-map
+Libraries:
+drone-cortex-m: [v0.11.0 normal]=Y
+drone-nrf-map-pieces: [v0.11.0 normal]=Y
+
+DaSEA:
+drone-core: [v0.14.0 ^0.14.0 NORMAL]=Y [v0.13.0 ^0.13.0 NORMAL] =Y
+drone-cortex-m: [v0.11.0 ^0.11.0 NORMAL]=Y 
+drone-cortexm: [v0.14.0 ^0.14.0 NORMAL]=Y [v0.13.0 ^0.13.0 NORMAL] =Y
+drone-nrf-map-periph-uarte: [v0.14.0 =0.14.0 NORMAL]=Y [v0.13.0 =0.13.0 NORMAL] =Y
+drone-nrf-map-pieces: [v0.14.0 =0.14.0 NORMAL]=Y [v0.13.0 =0.13.0 NORMAL] =Y
+
+Conclusion:
+100% match, DaSEA has never versions of the package though
+
+7. Package: bcndecode
+gcc: [v0.2.0 build]=Y [v0.1.0 build]=Y
+libc: [v0.2.0 dev]=Y [v0.1.0 normal]=Y
+
+DaSEA:
+gcc: [v0.2.0 ^0.3 BUILD]=Y [v0.1.0 ^0.3 BUILD] =Y
+libc: [v0.2.0 ^0.2.26 DEV]=Y [v0.1.0 ^0.2.26 NORMAL] =Y
+
+Conclusion:
+100% match
+
+8. Package: guessmetest
+Libraries:
+rand: [v0.1.0 normal]=Y
+
+DaSEA:
+rand: [v0.1.0 ^0.6.1 NORMAL] =Y
+
+Conclusion:
+100% match
+
+
+9. Package: basiccountminsketch
+Libraries:
+rand: [v0.1.2 normal]=Y [v0.1.0 runtime]=Y
+
+DaSEA:
+rand: [v0.1.2 ^0.3.12 NORMAL]=Y [v0.1.0 ^0.3.8 NORMAL] =Y
+
+Conclusion:
+100% match, but libraries specific the v0.1.0 dep as runtime (not in later version)
+
+10. Package: fibonacci_codec
+Libraries:
+bit-vec: [v0.1.0 normal] =Y
+failure: [v0.1.0 normal] =Y
+failure_derive: [v0.1.0 normal]=Y
+num: [v0.1.0 normal]=Y
+
+DaSEA:
+bit-vec: [v0.2.0 ^0.6.0 NORMAL]=Y [v0.1.1 ^0.4.4 NORMAL] =Y
+criterion: [v0.2.0 ^0.3 DEV] =Y
+failure: [v0.2.0 ^0.1.1 NORMAL]=Y [v0.1.1 ^0.1.1 NORMAL] =Y
+failure_derive: [v0.2.0 ^0.1.1 NORMAL]=Y [v0.1.1 ^0.1.1 NORMAL] =Y
+num: [v0.2.0 ^0.4 BUILD]=Y [v0.2.0 ^0.4 BUILD] =Y (There really is two of the same)
+proptest: [v0.2.0 ^1.0.0 DEV] =Y
+
+Conclusion:
+100% match
+
+11. Package: table-extract
+Libraries:
+scraper: [v0.2.2 normal]=Y [v0.2.1 normal]=Y
+
+DaSEA:
+scraper: [v0.2.2 ^0.11 NORMAL]=Y [v0.2.1 ^0.4.0 NORMAL] =Y
+
+Conclusion:
+100% match
+
+12. Package: stomper
+Libraries:
+libstomper: [v0.2.0 normal]=Y [v0.1.0 normal]=Y
+structopt: [v0.2.0 normal]=Y [v0.1.0 normal]=Y
+
+DaSEA:
+libstomper: [v0.2.0 ^0.2.0 NORMAL]=Y [v0.1.0 ^0.1.0 NORMAL] =Y
+structopt: [v0.2.0 ^0.2.18 NORMAL]=Y [v0.1.0 ^0.2.18 NORMAL] =Y
+
+Conclusion:
+100% match
+
+13. Package: wasmlite-parser
+Libraries:
+wasmlite-llvm: [v0.0.1 normal]=Y
+wasmlite-utils: [v0.0.1 normal]=Y
+
+DaSEA:
+wasmlite-llvm: [v0.0.1 ^0.0.1 NORMAL] =Y
+wasmlite-utils: [v0.0.1 ^0.0.1 NORMAL]=Y
+
+Conclusion:
+100% match
+
+14. Package: maskerad_object_pool
+Libraries:
+bencher: [v0.1.2 dev]=Y[v0.1.1 dev]=Y
+log: [v0.3.0 normal]=Y
+serde: [v0.3.0 normal]=Y[v0.2.2 normal]=Y
+time: [v0.1.2 dev]=Y[v0.1.1 dev]=Y
+
+DaSEA:
+bencher: [v0.1.2 ^0.1.4 DEV]=Y [v0.1.1 ^0.1.4 DEV] =Y
+log: [v0.3.0 ~0.4 NORMAL] =Y
+serde: [v0.3.0 ~1.0 NORMAL]=Y [v0.2.2 ~1.0 NORMAL] =Y
+time: [v0.1.2 ^0.1.38 DEV]=Y [v0.1.1 ^0.1.38 DEV]=Y
+
+Conclusion:
+100% match between three different versions
+
+15. Package: c2rust
+Libraries:
+c2rust-refactor: [v0.14.0 normal]=Y [v0.13.0 normal]=Y
+c2rust-transpile: [v0.14.0 normal]=Y [v0.13.0 normal]=Y
+chrono: [v0.14.0 build]=Y [v0.13.0 build]=Y
+clap: [v0.14.0 normal]=Y [v0.13.0 normal]=Y
+env_logger: [v0.14.0 normal]=Y [v0.13.0 normal]=Y
+log: [v0.14.0 normal]=Y [v0.13.0 normal]=Y
+regex: [v0.14.0 normal]=Y [v0.13.0 normal]=Y
+rustc_version: [v0.14.0 build] =Y[v0.13.0 build]=Y
+shlex: [v0.14.0 normal]=Y [v0.13.0 normal]=Y
+
+DaSEA:
+c2rust-refactor: [v0.15.1 ^0.15.0 NORMAL] [v0.15.0 ^0.15.0 NORMAL] =Y
+c2rust-transpile: [v0.16.0 ^0.16.0 NORMAL]=Y [v0.15.1 ^0.15.1 NORMAL] =Y
+chrono: [v0.16.0 ^0.4 BUILD]=Y [v0.15.1 ^0.4 BUILD] =Y
+clap: [v0.16.0 ^2.34 NORMAL]=Y [v0.15.1 ^2.33 NORMAL] =Y
+env_logger: [v0.16.0 ^0.9 NORMAL]=Y [v0.15.1 ^0.7 NORMAL] =Y
+git-testament: [v0.16.0 ^0.2.1 NORMAL] =Y =Y
+log: [v0.16.0 ^0.4 NORMAL]=Y [v0.15.1 ^0.4 NORMAL] =Y
+regex: [v0.16.0 ^1.3 NORMAL]=Y [v0.15.1 ^1.3 NORMAL] =Y
+rustc_version: [v0.16.0 ^0.4 BUILD]=Y [v0.15.1 ^0.2 BUILD] =Y
+shlex: [v0.16.0 ^1.1 NORMAL]=Y [v0.15.1 ^0.1 NORMAL] =Y
+
+Conclusion:
+100% match across 4 different versions
+
+16. Package: virtual-node
+Libraries:
+html-validation: [v0.2.6 normal]=Y [v0.2.5 normal]=Y
+js-sys: [v0.2.6 normal]=Y [v0.2.5 normal]=Y
+lazy_static: [v0.2.6 normal]=Y [v0.2.5 normal]=Y
+wasm-bindgen: [v0.2.6 normal]=Y [v0.2.5 normal]=Y
+web-sys: [v0.2.6 normal]=Y [v0.2.5 normal]=Y
+
+DaSEA:
+html-validation: [v0.3.1 ^0.1.1 NORMAL]=Y [v0.3.0 ^0.1.1 NORMAL] =Y
+js-sys: [v0.3.1 ^0.3 NORMAL]=Y [v0.3.0 ^0.3 NORMAL] =Y
+lazy_static: [v0.2.9 ^1.0 NORMAL]=Y [v0.2.8 ^1.0 NORMAL] =Y
+wasm-bindgen: [v0.3.1 ^0.2.33 NORMAL]=Y [v0.3.0 ^0.2.33 NORMAL] =Y
+web-sys: [v0.3.1 ^0.3 NORMAL]=Y [v0.3.0 ^0.3 NORMAL] =Y
+
+Conclusion:
+100% match across 4 versions (DaSEA has the newer ones)
+
+17. Package: keyed_priority_queue
+Libraries:
+
+DaSEA:
+indexmap: [v0.4.1 ^1.3 NORMAL]=Y [v0.4.0 ^1.3 NORMAL] =Y
+
+Conclusion:
+DaSEA correct, libraries doesnt have dependencies on this package.
+
+18. Package: snailquote
+Libraries:
+quickcheck: [v0.2.0 dev]=Y [v0.1.1 dev]=Y
+unicode_categories: [v0.2.0 normal]=Y [v0.1.1 normal]=Y
+
+DaSEA:
+quickcheck: [v0.3.1 ^0.9 DEV]=Y [v0.3.0 ^0.6 DEV] =Y
+quickcheck_macros: [v0.3.1 ^0.9 DEV] =Y
+thiserror: [v0.3.1 ^1.0 NORMAL]=Y [v0.3.0 ^1.0 NORMAL] =Y
+unicode_categories: [v0.3.1 ^0.1.1 NORMAL]=Y [v0.3.0 ^0.1.1 NORMAL] =Y
+
+Conclusion:
+100% match across 4 versions
+
+19. Package: derive_setters
+Libraries:
+darling: [v0.1.0 normal]=Y
+proc-macro2: [v0.1.0 normal]=Y
+quote: [v0.1.0 normal]=Y
+syn: [v0.1.0 normal]=Y
+
+DaSEA:
+darling: [v0.1.5 ^0.10 NORMAL]=Y [v0.1.4 ^0.10 NORMAL] =Y
+proc-macro2: [v0.1.5 ^1 NORMAL]=Y [v0.1.4 ^1 NORMAL] =Y
+quote: [v0.1.5 ^1 NORMAL]=Y [v0.1.4 ^1 NORMAL] =Y
+syn: [v0.1.5 ^1 NORMAL]=Y [v0.1.4 ^1 NORMAL] =Y
+
+Conclusion:
+100% across 3 versions
+
+20. Package: graphy_static_util
+Libraries:
+graphy_error: [v0.2.0 runtime] =Y (DIFFERENT KIND)
+
+DaSEA:
+graphy_error: [v0.2.0 ^0.2 NORMAL] =Y
+
+Conclusion:
+100% match but runtime in libraries
+
+FINAL CONCLUSION:
+- 100% match
+- 100% match DaSEA detects new versions
+- Libraries had no dependencies for that package, but DaSEA 100% match
+- 100% match but Libraries sometimes specify the kind as runtime where DaSEA specify normal
+- Libraries changes a runtime depency to normal for a new package version
+
+
+
+Libraries sometimes specifices an dependency to a package as runtime but in a newever
+version of that package the dependency is not runtime
+
+Generelly we also see that everytime we sample a package with no dependencies, they both have none
+
+We see that if a version is archived it is not picked up by neither DaSEA or Libraries

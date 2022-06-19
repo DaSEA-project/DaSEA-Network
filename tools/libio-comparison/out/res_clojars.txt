@@ -1,0 +1,51 @@
+Clojars
+Packages in libraries.io that are not in DaSEA
+Total = 108/24295 
+Sample:
+org.clojars.apmaros/clj-loga X
+apmaros/clj-loga X
+org.clj-grenada/grenada-lib X
+com.googlecode.efficient-java-matrix-library/ejml X
+/core.matrix.stats X (Exist but parsing error)
+org.apache.maven/maven-ant-tasks X
+hermes/hermes X
+com.sna-projects.krati/krati X
+/clojure-utils X (exist but parsing errors)
+jar-copier X (exist but not specified which one)
+com.rabbitmq/amqp-client X
+flock-staff X
+org.clojars.phoenix/clj-zookeeper X (renamed doesnt have prefix, we dont either)
+lamineight X
+dataframes/uploader-client X
+viebel/audyx-toolbet X
+/mikera-gui X (Exist but parsing error)
+clj-momo X (Exist but no prefix, we have correct prefix)
+facjure/datomic-tools X (Doesnt exist with that prefix, we have both correct prefixes)
+jughead (Exist no prefix, we have correct prefix)
+
+
+Packages in DaSEA that are not in libraries.io
+Total = 4812/28996 
+Sample:
+com.signal-ai/data-platform-telemetry Y
+org.clojars.rockchalkjay/ambient-weather-clj Y
+org.danielsz/gapi Y
+org.typedclojure/typed.clj.lang Y
+org.clojars.xbrln/strom-cost Y
+clojure-interop/com.amazonaws.services.elasticloadbalancingv2 Y
+kwrooijen/duct-gungnir Y
+com.tolitius/inquery Y
+io.partx/partx-core Y
+lcmap-cli Y
+com.github.lread/muckabout Y
+cc.journeyman/errata Y
+org.clojars.diogok/datemath Y
+com.taoensso.forks/spec-alpha2 Y
+rssyslib/clj-template Y
+wavejumper/conch Y
+org.clojars.jansuran03/lein-tornado Y
+org.pinkgorilla/ui-codemirror Y
+io.dominic/ag-grid-community Y
+rtcritical/rtengine Y
+
+Manuel queries from https://clojars.org/

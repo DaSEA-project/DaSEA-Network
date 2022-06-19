@@ -1,0 +1,217 @@
+Platform: Cargo
+Manual check https://crates.io
+1. Package: google-healthcare1_beta1
+
+Libraries:
+hyper
+hyper-rustls
+mime
+serde
+serde_derive
+serde_json
+url
+yup-oauth2
+
+DaSEA:
+hyper: {'^0.14', '^0.10'}
+hyper-rustls: {'^0.6', '^0.22', '^0.23.0'}
+itertools: {'^0.10'}
+mime: {'^0.2.0'}
+serde: {'^1.0'}
+serde_derive: {'^1.0'}
+serde_json: {'^1.0'}
+url: {'= 1.7', '=1.7'}
+yup-oauth2: {'^6.0', '^1.0', '^6.6', '^5.0'}
+
+In total they share dependencies between 8 packages
+yup-oauth2
+serde
+serde_json
+mime
+hyper-rustls
+hyper
+serde_derive
+url
+
+DaSEA has dependency not in libraries:
+itertools
+
+Libraries has dependency not in DaSEA:
+
+DaSEA has all the correct dependencies, but Libraries are missing itertools.
+
+2. Package: passpartout_printer
+Libraries:
+clap
+device_query
+enigo
+failure
+failure_derive
+image
+serde
+serde_derive
+serde_json
+
+DaSEA:
+clap: {'^2.30.0'}
+device_query: {'^0.1.0'}
+enigo: {'^0.0.11'}
+failure: {'^0.1'}
+failure_derive: {'^0.1'}
+image: {'^0.18'}
+serde: {'^1.0'}
+serde_derive: {'^1.0'}
+serde_json: {'^1.0'}
+
+In total they share dependencies between 9 packages
+enigo
+serde_derive
+image
+serde_json
+failure_derive
+clap
+device_query
+serde
+failure
+
+DaSEA has dependency not in libraries:
+
+Libraries has dependency not in DaSEA:
+
+
+DaSEA has all the correct versions and dependencies
+
+3. Package: is_thirteen_rs
+Libraries:
+chrono
+
+DaSEA:
+chrono: {'^0.4'}
+
+In total they share dependencies between 1 packages
+chrono
+
+DaSEA has dependency not in libraries:
+
+Libraries has dependency not in DaSEA:
+
+
+DaSEA has all the correct dependencies and versions
+
+4. Package: dawr
+Libraries:
+hound
+portaudio
+rand
+
+DaSEA:
+hound: {'^3.4'}
+portaudio: {'^0.7'}
+rand: {'^0.4'}
+
+In total they share dependencies between 3 packages
+hound
+rand
+portaudio
+
+DaSEA has dependency not in libraries:
+
+Libraries has dependency not in DaSEA:
+
+DaSEA has all the correct dependencies and versions
+
+Package:
+
+5. Libraries: r2d2-testconnection
+r2d2
+
+DaSEA:
+r2d2: {'^0.7'}
+
+In total they share dependencies between 1 packages
+r2d2
+
+DaSEA has dependency not in libraries:
+
+Libraries has dependency not in DaSEA:
+
+DaSEA has all the correct dependencies and versions
+
+6. Package: zia
+
+Libraries:
+proptest
+slog
+slog-term
+test_zia
+
+DaSEA:
+criterion: {'^0.3.0'} DEV
+lazy_static: {'^1.2.0'}
+maplit: {'^1.0.2'}
+proptest: {'^0.9.1'} DEV
+slog: {'^2.4.1'}
+slog-term: {'^2.4.0'}
+snafu: {'^0.5.0'}
+test_zia: {'^0.2.0', '^0.4.0', '^0.5.0', '^0.1.0'} DEV
+
+In total they share dependencies between 4 packages
+slog-term
+slog
+test_zia
+proptest
+
+DaSEA has dependency not in libraries:
+criterion
+lazy_static
+maplit
+snafu
+
+Libraries has dependency not in DaSEA:
+
+DaSEA has all the correct dependencies and versions. 
+DaSEA also identifies correct dependency type.
+Libraries also detect test_zia and proptest as dev dependencies
+
+DaSEA has all the correct dependencies and versions
+
+7. Package: crypto-mac
+
+Libraries:
+blobby
+byte-tools
+constant_time_eq
+crypto-ops
+digest
+generic-array
+subtle
+
+DaSEA:
+blobby: {'^0.1', '^0.3'}
+block-cipher: {'^0.8'}
+byte-tools: {'^0.1'}
+cipher: {'^0.2', '=0.3.0-pre.4', '^0.3', '=0.3.0-pre.5'}
+constant_time_eq: {'^0.1'}
+crypto-common: {'=0.1.0-pre'}
+crypto-ops: {'^0.1'}
+digest: {'^0.2'}
+generic-array: {'^0.7', '^0.14', '^0.12', '^0.5', '^0.9', '^0.8'}
+rand_core: {'^0.6'}
+subtle: {'=2.4', '^2', '^1'}
+
+In total they share dependencies between 7 packages
+blobby
+digest
+constant_time_eq
+crypto-ops
+byte-tools
+subtle
+generic-array
+
+DaSEA has dependency not in libraries:
+block-cipher
+cipher
+crypto-common
+rand_core
+
+Libraries has dependency not in DaSEA:
