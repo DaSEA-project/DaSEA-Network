@@ -57,11 +57,15 @@ def main(fnames):
                 except ValueError as e:
                     logging.DEBUG(e)
                     raise e
+                
                 url = ""
                 if repo:
                     url = clean_url(repo)
                 elif homepage:
                     url = clean_url(homepage)
+                if url.endswith(".git"):
+                    url = url[:-4]
+
                 csv_writer.writerow(
                     (
                         f'version'+idx+pkgman.lower(),

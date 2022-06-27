@@ -25,7 +25,15 @@ bad_urls =[
     "http://example.com/",
 ]
 
+cnt = 0
+for pckg in data:
+    cnt = cnt + pckg['total_pkgs']
 
-output_json = [x for x in data if x['url'] not in bad_urls]
+print(cnt)
 
-json.dump(output_json, open("tools/snyk-check/order_by_pckg_managers_clean.json", "w"), indent=4)
+# output_json = [x for x in data if x['url'] not in bad_urls]
+
+# json.dump(output_json, open("tools/snyk-check/order_by_pckg_managers_clean.json", "w"), indent=4)
+
+
+
